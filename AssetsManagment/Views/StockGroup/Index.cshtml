@@ -8,14 +8,20 @@
                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#stockGroup" role="tab" aria-controls="home" aria-selected="true">Stock Group</a>
             </li>*@
             <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="BrandTab()" data-toggle="tab" href="#menu6" role="tab" aria-controls="Brand" aria-selected="false">Brand</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" id="settings-tab" onclick="stockGroupTab()" data-toggle="tab" href="#menu5" role="tab" aria-controls="Department" aria-selected="false">Stock Group</a>
             </li>
-         
+            <li class="nav-item">
+                <a class="nav-link" id="settings-tab" onclick="BrandTab()" data-toggle="tab" href="#menu6" role="tab" aria-controls="Brand" aria-selected="false">Brand Name</a>
+            </li>
+        
+            <li class="nav-item">
+                <a class="nav-link" id="settings-tab" onclick="BrandTab()" data-toggle="tab" href="#menu6" role="tab" aria-controls="Brand" aria-selected="false">Model</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link  " id="packViewTab" onclick="packViewTab()" data-toggle="tab" href="#menu1" role="tab" aria-controls="profile" aria-selected="false">Unit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  " id="SupplierTab" onclick="SupplierTab()" data-toggle="tab" href="#menu8" role="tab" aria-controls="profile" aria-selected="false">Supplier Name</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="messages-tab" onclick="LocationViewTab()" data-toggle="tab" href="#menu2" role="tab" aria-controls="messages" aria-selected="false">Location</a>
@@ -120,6 +126,10 @@
                 <div id="menu7">
                 </div>
             </div>
+            <div id="menu8" class="tab-pane fade">
+                <div id="menu8">
+                </div>
+            </div>
         </div>
 
     </div>
@@ -140,7 +150,23 @@
 </div>*@
 
 <script>
+    function SupplierTab() {
 
+
+        $.ajax({
+            url: '/SupplierInfo/Index',
+            type: 'GET',
+
+            dataType: 'html',
+            contentType: 'application/json',
+            success: function (data) {
+                $('#menu8').html(data);
+            },
+            error: function (ex) {
+            }
+        });
+
+    }
     function TreeViewTab() {
 
 

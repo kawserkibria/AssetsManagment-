@@ -175,6 +175,7 @@
     <Compile Include="Controllers\setting\LocationController.cs" />
     <Compile Include="Controllers\setting\PackSizeController.cs" />
     <Compile Include="Controllers\StockGroupController.cs" />
+    <Compile Include="Controllers\SupplierInfoController.cs" />
     <Compile Include="Controllers\TreeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Extension.cs" />
@@ -606,6 +607,7 @@
     <Content Include="Views\Brand\BrandPartialView.cshtml" />
     <Content Include="Views\Tree\Index.cshtml" />
     <Content Include="Views\SalesOrder\Index.cshtml" />
+    <Content Include="Views\SupplierInfo\SupplierPartitalView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
