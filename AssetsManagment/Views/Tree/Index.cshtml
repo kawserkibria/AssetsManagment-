@@ -1,0 +1,68 @@
+﻿
+    @*<link href="~/Content/jsTree/themes/default/style.min.css" rel="stylesheet" />*@
+    <div class="form-body">
+        <div id="jstree">
+          
+        </div>
+    </div>
+   
+
+            
+        <script>
+
+            //$(function () {
+            //    var selectedData;
+               
+            //    $('#jstree').jstree(
+            //        {
+            //        "core": {
+            //            "animation": 0,
+            //            "check_callback": true,
+            //            "themes": { "stripes": true },
+            //            "icons": true,
+            //        },
+            //        "type": {
+            //            "default": {
+            //                "jstree-icon": "fa fa-folder icon-state-warning icon-lg"
+            //            },
+            //            "file": {
+            //                "jstree-icon": "fa fa-exclamation-triangle"
+            //                //'icon': 'jstree-file'
+            //            }
+            //        },
+            //        "plugins": ["parent","type"]
+            //        //"plugins": ["dnd", "state", "types", "sort", "checkbox"]
+            //    });
+
+            //});
+            $(function () {
+                $('#jstree').jstree({
+                    'core': {
+                        'data': {
+                            'url': '/Tree/GetJsTree3Data',
+                            'dataType': 'json'
+                        }
+                    },
+                    'types': {
+                        'first': {
+                            'icon': 'fa fa-folder'
+                        },
+                        'second': {
+                            'icon': 'fa fa-file-text-o'
+                        },
+                        'third': {
+                            'icon': 'fa fa-exclamation-triangle'
+                        }
+
+
+                    },
+                    'plugins': ['types'],
+                });
+            });
+           
+        </script>
+
+              
+
+
+    @*}*@

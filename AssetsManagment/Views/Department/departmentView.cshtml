@@ -1,0 +1,296 @@
+﻿<div class="card-header" style="background:  #194771; color: white;">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 style="color: gold;">Department Name</h3>
+
+
+
+        </div>
+        <div class="col-md-4" style="position: relative;">
+            <div class="btnAllRow">
+                <button title="Units"
+                        style="margin: 2px;"
+                        class="btn btn-success"
+                        data-toggle="modal" id="locationBtn" data-target=".department-example-modal-lg">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Department
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+
+<div class="modal fade department-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="departmentModal">
+
+    <div class="modal-dialog modal-lg department-example-modal-lg ">
+        <div class="modal-content">
+            <div class="modal-header ">
+
+                <h5 class="modal-title  text-center" style="margin: 0 auto;" id="exampleModalLabel"></h5>
+                <p>  </p>
+                <button type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close">
+                    <span>&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body crudForm">
+                <div class="col-md-12">
+                    <div class="row">
+
+                        <div class="col-md-10">
+
+
+                            <div class="row">
+                                <div class="col-sm-3" style="margin: 5px;">
+                                    <h5 style="text-align: right;">Department Name</h5>
+                                </div>
+                                <div class="col-sm-4 " style="margin: 5px;">
+                                    <input type="text" class="form-control" id="departmentName" placeholder="Name" />
+
+                                </div>
+
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <span><input type="button" class="btn btn-outline-success " id="btnDpAdd" onclick="return saveOrUpdates();" value="Add"></input></span>
+
+                                @*<button type="submit" class="btn btn-outline-success " onclick="saveData()">Submit</button>*@
+                                <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="bsModalRef.hide()">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+    <div class="col-md-12" id="rcorners2">
+        <table id="datatableDepartment" class="table table-striped table-bordered" style="width:100%"></table>
+    </div>
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        showGrid();
+    });
+
+    function saveOrUpdates() {
+        var btn = $('#btnDpAdd').val()
+        if (btn == "Add") {
+            saveData();
+
+        } else {
+
+            console.log('request.responseText', selectdata);
+            UpdateDepartment();
+        }
+    }
+
+    function saveData() {
+       
+        var empObj = {
+            department_name: $('#departmentName').val(),
+        };
+
+        $.ajax({
+            url: "/Department/create",
+            type: "POST",
+            data: JSON.stringify(empObj),
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+
+                if (result == "Ok") {
+                    $('#departmentModal').modal('hide');
+                    cleardatda();
+                    showGrid();
+                };
+
+            }
+        });
+    }
+
+
+    function deleteDepartment(id) {
+        alert(id)
+        $.ajax({
+            url: "/Department/DeleteDepartment?id=" + id,
+            //data: JSON.stringify(empObj),
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+             
+               
+                if (result == "OK") {
+                    
+                    cleardatda();
+                    showGrid();
+                    swal("Delete!", "Delete success.", "success");
+                    
+
+                };
+                //error: function (errormessage) {
+                //    alert(errormessage.responseText);
+                //}
+
+            }
+        });
+
+
+    }
+
+    function UpdateDepartment() {
+        var empObj = {
+            department_code: selectdata.department_code,
+            department_name: $('#departmentName').val(),
+        };
+
+
+        $.ajax({
+
+            url: "/Department/updateDepartment",
+            data: JSON.stringify(empObj),
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                if (result == "Ok") {
+                    $('#departmentModal').modal('hide');
+                    cleardatda();
+                    showGrid();
+                };
+            }
+        });
+    }
+
+
+
+
+    function cleardatda() {
+        $("#datatableDepartment").dataTable().fnDestroy();
+        $('#btnDpAdd').val("Add");
+
+        $('#departmentName').val("");
+       
+    }
+
+
+    function edit(selectdata) {
+
+        $('#departmentModal').modal('show');
+        $('#departmentName').val(selectdata.department_name);
+
+        $('#btnDpAdd').val("Update");
+
+    }
+
+
+
+    function showGrid() {
+        $('#datatableDepartment').DataTable({
+            "bDestroy": true,
+            
+            //"scrollX": true,
+            "ajax": {
+                "url": "/Department/showGrid",
+                "type": "POST",
+                "datatype": "json",
+                "dataSrc": function (response) {
+                    response.draw = response.draw;
+                    response.recordsTotal = response.recordsTotal;
+                    response.recordsFiltered = response.recordsFiltered;
+                    console.log('request.responseText', response);
+                    return response;
+                }
+            },
+
+            "select": true,
+
+            "order": [[1, 'asc']],
+            "columns": [
+                  {
+                      title: 'SL',
+                      render: function (
+                          data,
+                          type,
+                          row,
+                         meta
+                      ) {
+                          return '<span>' + (meta.row + 1) + '</span>';
+                      },
+                  },
+               
+
+                 {
+                     title: 'department_name',
+                     data: 'department_name',
+                     name: 'department_name',
+                 },
+                 {
+                     title: 'department_code',
+                     data: 'department_code',
+                     name: 'department_code',
+                 },
+                 {
+                     title: 'dep_status',
+                     data: 'dep_status',
+                     name: 'dep_status',
+                 },
+                 
+ 
+                    {
+                        render: function (data, type, row) {
+                            return '<button class="btn btn-info fontsize  sales-sloat-ak">   <i class="fa fa-pencil"></i></button>' + "&nbsp" + '<button class="btn btn-danger fontsize  delete-sloat-ak"> <i class="fa fa-trash"></i></button>';
+                        }
+                    },
+
+                      
+
+            ],
+            
+            "responsive": true,
+            "rowCallback": function (row, data) {
+              
+                $(row).find(".sales-sloat-ak").click(function () {
+                    selectdata = data;
+                    console.log('hello edit dddeeeee', selectdata);
+                    edit(selectdata);
+                    //that.salesss(data);
+                    //that.rerender();
+                });
+                $(row).find(".delete-sloat-ak").click(function () {
+                    selectdata = data;
+                    deleteDepartment(selectdata.department_code)
+                    //deletePack(selectdata.lngslNo)
+                    //that.salesss(data);
+                    //that.rerender();
+                });
+
+            }
+
+        });
+    }
+
+
+
+</script>

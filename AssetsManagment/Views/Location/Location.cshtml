@@ -1,0 +1,377 @@
+﻿<div class="card-header" style="background:  #194771; color: white;">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 style="color: gold;">Location Name</h3>
+
+
+
+        </div>
+        <div class="col-md-4" style="position: relative;">
+            <div class="btnAllRow">
+                <button title="Units"
+                        style="margin: 2px;"
+                        class="btn btn-success"
+                        data-toggle="modal" id="locationBtn" data-target=".location-example-modal-lg">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Location
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+ 
+<div class="modal fade location-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="locationModal">
+
+    <div class="modal-dialog modal-lg location-example-modal-lg ">
+        <div class="modal-content">
+            <div class="modal-header ">
+
+                <h5 class="modal-title  text-center" style="margin: 0 auto;" id="exampleModalLabel"></h5>
+                <p>  </p>
+                <button type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close">
+                    <span>&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body crudForm">
+                <div class="col-md-12">
+                    <div>
+                        <div class="form-group">
+                            @*//from code start*@
+                            <form>
+                                <div class="row">
+                                    <div class="form-group col-md-3 ">
+                                        <label for="EmployeeId">Name</label>
+                                        <input type="text" class="form-control" id="strLocation" placeholder="Name" />
+                                    </div>
+                                    @*<div class="form-group col-md-3 hidden ">
+                                            <label for="Name">Branch</label>
+                                            <input type="text" class="form-control" id="strBranchId" placeholder="Branch" />
+                                        </div>*@
+
+                                    <div class="form-group col-md-3 ">
+                                        <label for="State">Address</label>
+                                        <input type="text" class="form-control" id="strAddres1" name="strAddres1" placeholder="Address" />
+                                    </div>
+
+                                    <div class="form-group col-md-3 ">
+                                        <label for="State">Phone</label>
+                                        <input type="text" class="form-control" id="strPhone" name="strPhone" placeholder="Phone" />
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer justify-content-center">
+                                    @*<button type="button" class="btn btn-primary" id="btnAdds" onclick="return saveOrUpdates();" value="Add"></button>*@
+                                    <span><input type="button" class="btn btn-primary" id="btnLAdds" onclick="return saveOrUpdates();" value="Save"></input></span>
+                                    <span><input type="button" class="btn btn-primary" id="btnAdds" onclick="return cleardatda();" value="Clear"></input></span>
+                                    <span><button type="button" class="btn btn-danger" data-dismiss="modal" id="btnBrandCencel" onclick="cancel()">Cancel</button></span>
+
+                                </div>
+
+
+                                @*<div class="form-group">
+
+                                        <input type="text" class="form-control" id="Country" placeholder="Country" />
+                                    </div>*@
+
+
+                            </form>
+
+                            @*//from code end*@
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+ 
+   <div class="table-responsive">
+    <table id="locationDatatable" class="table table-striped table-bordered" style="width:100%"></table>
+</div>
+
+
+    <script>
+
+        var locationID;
+
+        $(document).ready(function () {
+            showGrid();
+        });
+
+
+        function saveOrUpdates() {
+            var btn = $('#btnLAdds').val()
+            if (btn == "Save") {
+                saveData();
+
+            } else {
+
+                console.log('request.responseText', selectdata);
+                UpdateData();
+            }
+
+        }
+
+        function saveData() {
+            
+            var empObj = {
+                strLocation: $('#strLocation').val(),
+                strBranch: $('#strBranchId').val(),
+                strAddres1: $('#strAddres1').val(),
+                strPhone: $('#strPhone').val(),
+            };
+
+            $.ajax({
+                url: "/Location/create",
+                type: "POST",
+                data: JSON.stringify(empObj),
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+
+                    if (result == "Ok") {
+                        $('#locationModal').modal('hide');
+                        cleardatda();
+                        showGrid();
+                        swal("Save!", "Save success.", "success");
+                    };
+
+                }
+            });
+        }
+
+        function UpdateData() {
+
+
+
+            var empObj = {
+                lngSlNo: locationID,
+                strLocation: $('#strLocation').val(),
+                strBranch: $('#strBranchId').val(),
+                strAddres1: $('#strAddres1').val(),
+                strPhone: $('#strPhone').val(),
+            };
+
+
+            $.ajax({
+
+                url: "/Location/updateData",
+                data: JSON.stringify(empObj),
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    if (result == "Ok") {
+                        $('#locationModal').modal('hide');
+                        cleardatda();
+                        showGrid();
+                        swal("Update!", "Update success.", "success");
+                    };
+                }
+            });
+        }
+
+
+        function showGrid() {
+            $('#locationDatatable').DataTable({
+                "bDestroy": true,
+                
+                //"scrollX": true,
+                "ajax": {
+                    "url": "/Location/showGrid",
+                    "type": "POST",
+                    "datatype": "json",
+                    "dataSrc": function (response) {
+                        response.draw = response.data.draw;
+                        response.recordsTotal = response.recordsTotal;
+                        response.recordsFiltered = response.recordsFiltered;
+                        console.log('request.responseText', response.data);
+                        return response.data;
+                    }
+                },
+
+                "select": true,
+
+                "order": [[1, 'asc']],
+                "columns": [
+                      {
+                          title: 'SL',
+                          render: function (
+                              data,
+                              type,
+                              row,
+                             meta
+                          ) {
+                              return '<span>' + (meta.row + 1) + '</span>';
+                          },
+                      },
+                    //{
+                    //    return type == 'export' ? meta.row + 1 : data
+                    //},
+
+
+                    
+                {
+                title: 'Id',
+                data: 'lngSlNo',
+                name: 'lngSlNo',
+            },
+                     {
+                         title: 'Location',
+                         data: 'strLocation',
+                         name: 'strLocation',
+                     },
+                     {
+                         title: 'Branch',
+                         data: 'strBranch',
+                         name: 'strBranch',
+                     },
+                     {
+                         title: 'Addres',
+                         data: 'strAddres1',
+                         name: 'strAddres1',
+                     },
+                     {
+                         title: 'Phone',
+                         data: 'strPhone',
+                         name: 'strPhone',
+                     },
+
+                       //{
+                       //    render: function (data, type, row) {
+                       //        return '<button type="button"   class="btn btn-info fontsize  sales-sloat-ak">Edit</button>';
+                       //    }
+                       //},
+
+                       //  {
+                       //      render: function (data, type, row) {
+                       //          return '<button type="button"   class="btn btn-danger fontsize  delete-sloat-ak">Delete</button>';
+                       //      }
+                       //  },
+                               {
+                                   render: function (data, type, row) {
+                                       return '<button class="btn btn-info fontsize  sales-sloat-ak">   <i class="fa fa-pencil"></i></button>' + "&nbsp" + '<button class="btn btn-danger fontsize  delete-sloat-ak"> <i class="fa fa-trash"></i></button>';
+                                   }
+                               },
+
+                ],
+                
+                "responsive": true,
+                "rowCallback": function (row, data) {
+                    //$(row)
+                    // .bind('click')
+                    // .click(function () {
+
+                    //     selectdata = data;
+                    //     console.log('hello delete dataddddddddd', selectdata);
+                    //     //rerender();
+                    // });
+                    $(row).find(".sales-sloat-ak").click(function () {
+                        selectdata = data;
+                        console.log('hello edit dddeeeee', selectdata);
+                        edit(selectdata);
+                        //that.salesss(data);
+                        //that.rerender();
+                    });
+                    $(row).find(".delete-sloat-ak").click(function () {
+                        selectdata = data;
+                        deleteLocation(selectdata.lngSlNo)
+                        //that.salesss(data);
+                        //that.rerender();
+                    });
+
+                }
+
+            });
+        }
+
+
+
+
+        function edit(selectdata) {
+
+
+            $('#locationModal').modal('show');
+            locationID = selectdata.lngSlNo;
+
+            $('#strLocation').val(selectdata.strLocation);
+            $('#strBranchId').val(selectdata.strBranch);
+            $('#strAddres1').val(selectdata.strAddres1);
+            $('#strPhone').val(selectdata.strPhone);
+
+
+
+            $('#btnLAdds').val("Update");
+
+        }
+
+        function deleteLocation(id) {
+           
+            $.ajax({
+                url: "/Location/DeleteL?id=" + id,
+                //data: JSON.stringify(empObj),
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                   
+                    //loadData();
+                    //$('#myModal').modal('hide');
+                    if (result == "OK") {
+                       
+
+                        cleardatda();
+                        showGrid();
+                        swal("Delete!", "Delete success.", "success");
+                        //alert("save data")
+                        //$('.nav-tabs a[href="#tabLeaveApplicationList"]').tab('show');
+
+
+                    };
+                    //error: function (errormessage) {
+                    //    alert(errormessage.responseText);
+                    //}
+
+                }
+            });
+
+
+        }
+        function cancel() {
+            cleardatda();
+            $('#locationModal').modal('hide');
+        }
+
+
+
+        function cleardatda() {
+
+            $("#locationDatatable").dataTable().fnDestroy();
+            $('#btnLAdds').val("Save");
+
+            $('#strLocation').val("");
+            $('#strBranchId').val("");
+            $('#strAddres1').val("");
+            $('#strPhone').val("");
+
+
+
+
+        }
+
+
+    </script>

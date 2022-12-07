@@ -1,0 +1,1152 @@
+﻿@model AssetsManagment.Models.BranchRespons
+<div class="card-header" style="background:  #194771; color: white;">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 style="color: gold;">Sales Order List</h3>
+
+
+
+        </div>
+        <div class="col-md-4" style="position: relative;">
+            <div class="btnAllRow">
+                <button title="New Order"
+                        style="margin: 2px;"
+                        class="btn btn-success"
+                        data-toggle="modal" id="myBtn" data-target=".bd-example-modal-lg">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;New Order
+                </button>
+            </div>
+        </div>
+    </div>
+</div>   
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true" id="itemModal">
+
+
+    <div class="modal-dialog modal-lg bd-example-modal-lg ">
+        <div class="modal-content">
+            <div class="modal-header ">
+
+                <h5 class="modal-title  text-center" style="margin: 0 auto;" id="exampleModalLabel"></h5>
+                <p>  </p>
+                <button type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                        (click)="bsModalRef.hide()">
+                    <span>&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body crudForm">
+                <div class="persoanlInfoArea">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-sm-4" style="margin: 5px;">
+                                    <p style="text-align: right; font-size:15px;">Branch Name</p>
+                                </div>
+                                <div class="col-sm-7 " style="margin: 5px;">
+                                    <select id="responsid2" class="form-control">
+                                        <option value="">--Select One--</option>
+                                            @foreach (var item in ViewBag.BranchName)
+                                            {
+                                                 <option value="@item.strBranch">@item.strBranch</option>
+                                            }
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+
+
+                            <div class="row">
+                                <div class="col-sm-4" style="margin: 5px; ">
+                                    <p style="text-align: right; font-size: 15px;">Order Number</p>
+                                </div>
+                                <div class="col-sm-7 " style="margin: 5px;">
+                                    <input type="text" class="form-control" id="ID_OrderNumber" placeholder="Order Number" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4" style="margin: 5px; ">
+                                    <p style="text-align: right; font-size: 15px;">Order Date</p>
+                                </div>
+                         
+
+                                <div class="col-sm-7 " style="margin: 5px;">
+                                    <input type="date" class="form-control" id="OrDate" name="issueDate">
+
+                                </div>
+                            </div>
+                        </div>
+
+              
+               
+
+
+                        <div class="col-md-6" >
+                            <div class="row">
+                                <div class="col-sm-4" style="margin: 5px;">
+                                    <p style="text-align: right; font-size: 15px;">MPO Name</p>
+                                </div>
+                                <div class="col-sm-7 " style="margin: 5px;">
+                                    <select id="responsid3" class="form-control">
+                                        <option value="">--Select One--</option>
+                                        @*@foreach (var item in ViewBag.BranchName)
+                                        {*@
+                                           @* <option value="@item.strLedgerName">@item.strLedgerName</option>*@
+                                        @*}*@
+                                    </select>
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4" style="margin: 5px; ">
+                                    <p style="text-align: right; font-size: 15px;">Customer</p>
+                                </div>
+                                <div class="col-sm-7 " style="margin: 5px;">
+                                    <select id="idcustomer" class="form-control">
+                                        <option value="">--Select One--</option>
+                                            @*@foreach (var item in ViewBag.reslist)
+                                            {
+                                            <option value="@item.strLocation">@item.strLocation</option>
+                                            }*@
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-sm-4" style="margin: 5px; ">
+                                    <p style="text-align: right; font-size: 15px;">Location Name</p>
+                                </div>
+                                <div class="col-sm-7 " style="margin: 5px;">
+                                    <select id="ddllocationid" class="form-control">
+                                        <option value="">--Select One--</option>
+                                        @*@foreach (var item in ViewBag.reslist)
+                                        {
+                                        <option value="@item.strLocation">@item.strLocation</option>
+                                        }*@
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="modal-body crudForm">
+                    <div class="persoanlInfoArea">
+                        <form class="form-horizontal form-signin"
+                              (ngsubmit)="f.form.valid && onSaveOrUpdate(f)"
+                              #f="ngForm"
+                              novalidate
+                              action="index.html">
+
+                            <div class="row">
+                                <div class="col-sm-3 form-group">
+                                   @* <label class="control-label">Group Name</label>*@
+                                    <p style="text-align: left; font-size: 15px;">Group Name</p>
+                                    <div>
+                                        <select id="ddlStockGrouplist" class="form-control">
+                                            <option value="">--Select One--</option>
+                                            @*@foreach (var item in ViewBag.reslist)
+                                            {
+                                                <option value="@item.strLocation">@item.strLocation</option>
+                                            }*@
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 form-group">
+                                    <p style="text-align: left; font-size: 15px;">Item Name</p>
+                                    <div>
+                                        <select id="ddlStockItemlist" class="form-control">
+                                            <option value="">--Select One--</option>
+                                                @*@foreach (var item in ViewBag.reslist)
+                                                {
+                                                <option value="@item.strLocation">@item.strLocation</option>
+                                                }*@
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <p style="text-align: left; font-size: 15px;">Qty</p>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <input type="number"
+                                                   class="form-control intRate"
+                                                   name="intQty"
+                                                   onchange=""
+                                                   @*onchange="calculateRate()"*@
+                                                   id="intQty" />
+                                        </div>
+                                        <div class="col-md-7">
+                                            <span><input type="button" class="btn btn-primary" id="btnAddItem" onclick="addOrEditItem();" value="Add"></input></span>
+                                            <input type="button" class="btn btn-warning" id="btnClearlocation" onclick="cleardatda();" value="Clear"></input></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group" style=" float: right;">
+                                 
+                                   
+                                    @*<button type="submit" class="btn btn-dark"><i class="fa fa-plus"></i> Add to List</button>*@
+
+                                </div>
+                            </div>
+                        
+                        
+                        </form>
+
+                        <div class="table-responsive">
+                            <table id="itemDatatable" class="table table-striped table-bordered" style="width:100%"></table>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                <div class="col-sm-8 ">
+                    <div class="row">
+                        <div class="col-sm-6 ">
+                            <h5 id="Totalitem" style="text-align: left; font-size: small">Total Item:</h5>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <h5 id="qtyTotal"  style="text-align: left; font-size: small">Total Qty:</h5>
+                        </div>
+                   
+                    </div>
+                    <div class="row">
+                   
+                        <div class="col-sm-2" style="margin:0px; ">
+                            <h5 style="text-align: left; font-size:12px;">Narration :</h5>
+                        </div>
+                        <div class="col-lg-9 " style="margin: 0px;">
+                            <input type="text" class="form-control" id="strNaration" placeholder="Narration" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <h5 style="text-align: right; font-size: small">Total Amount : 1000</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <h5 style="text-align: right; font-size: small">Comm. Amount : 100</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <h5 style="text-align: right; font-size: small"> Net Total : 900</h5>
+                            </div>
+                        </div>
+                    </div>
+</div>
+
+
+                <div class="modal-footer" >
+                    @*<button type="submit" class="btn btn-outline-success " onclick="saveOrUpdates()">Submit</button>*@
+                    <span><input type="button" class="btn btn-primary" id="btnsaveOrder" onclick="saveOrUpdates();" value="Save"></input></span>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="bsModalRef.hide()">Cancel</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table id="datatable4" class="table table-striped table-bordered" style="width:100%"></table>
+</div>
+
+<button onclick="myFunction()">Click me</button>
+
+
+
+<script>
+    jQuery.ajaxSettings.traditional = true;
+
+    var selectStockGroup = "";
+    var selectLocation = "";
+
+ 
+
+    $(document).ready(function () {
+        document.getElementById("qtyTotal").innerHTML = "Total Qty : " + 0;
+        document.getElementById("Totalitem").innerHTML = "Total Item : " + 0;
+        $("#responsid3").select2({ "width": '100%' });
+        $("#responsid3").focus();
+
+        $("#idcustomer").select2({ "width": '100%' });
+        $("#ddllocationid").select2({ "width": '100%' });
+        $("#ddlStockGrouplist").select2({ "width": '100%' });
+        $("#ddlStockItemlist").select2({ "width": '100%' });
+        $("#responsid2").select2({ "width": '100%' });
+        $("#ddllocationid").select2({ "width": '100%' });
+
+        $("#responsid2").focus();
+        showGrid();
+        showItemview();
+
+        $("#responsid2").on("change", function () {
+            selectBranch = $(this).val();
+            //alert(selectBranch)
+
+            var ddlResponsid3 = $("#responsid3");
+            $.ajax({
+                url: '@Url.Action("mGetMPO")',
+                datatype: "json",
+                data: {
+                    responseId: selectBranch
+                },
+                success: function (data) {
+                    ddlResponsid3.html('');
+                    ddlResponsid3.append($('<option value=--Select One-->--Select One--</option>'));
+                    $.each(data, function (id, option) {
+
+
+                        ddlResponsid3.append($('<option value="' + option.strTC + '">' + option.strLedgerName + '</option>'));
+                        //ddlResponsid3.append($('<option></option>').val(option.strLedgerName).html(option.strLedgerName));
+                    });
+
+                }
+            })
+
+        });
+
+        $("#responsid2").on("change", function () {
+            selectBranch = $(this).val();
+            //alert(selectBranch)
+
+            var ddllocationid3 = $("#ddllocationid");
+            $.ajax({
+                url: '@Url.Action("mGetLocation")',
+                datatype: "json",
+                data: {
+                    strBranchName: selectBranch
+                },
+                success: function (data) {
+                    ddllocationid3.html('');
+                    ddllocationid3.append($('<option value=--Select One-->--Select One--</option>'));
+                    $.each(data, function (id, option) {
+                        ddllocationid3.append($('<option value="' + option.strLocation + '">' + option.strLocation + '</option>'));
+                        //ddlResponsid3.append($('<option></option>').val(option.strLedgerName).html(option.strLedgerName));
+                    });
+
+                }
+            })
+
+        });
+
+
+        $("#responsid2").on("change", function () {
+            //selectBranch = $(this).val();
+            //alert(selectBranch)
+
+            var ddlStockGrouplist = $("#ddlStockGrouplist");
+            $.ajax({
+                url: '@Url.Action("mFillStockGroup")',
+                datatype: "json",
+                data: {
+                    strDeComID: "",
+                    strPrefix: "",
+                    vstrUserName: ""
+                },
+                success: function (data) {
+                    ddlStockGrouplist.html('');
+                    ddlStockGrouplist.append($('<option value=--Select One-->--Select One--</option>'));
+                    $.each(data, function (id, option) {
+                        ddlStockGrouplist.append($('<option value="' + option.strItemGroup + '">' + option.strItemGroup + '</option>'));
+                        //ddlResponsid3.append($('<option></option>').val(option.strLedgerName).html(option.strLedgerName));
+                    });
+
+                }
+            })
+
+        });
+
+
+
+        $("#ddlStockGrouplist").on("change", function () {
+            selectStockGroup = $(this).val();
+            selectLocation = $("#ddllocationid").val();
+            //alert(selectLocation)
+
+            var ddlStockItemlist = $("#ddlStockItemlist");
+            $.ajax({
+                url: '@Url.Action("gFillStockItemNew")',
+                datatype: "json",
+                data: {
+                    strDeComID: "",
+                    vstrRoot: selectStockGroup,
+                    vstrGodown: selectLocation
+                },
+                success: function (data) {
+                    ddlStockItemlist.html('');
+                    ddlStockItemlist.append($('<option value=--Select One-->--Select One--</option>'));
+                    $.each(data, function (id, option) {
+                        ddlStockItemlist.append($('<option value="' + option.strItemName + '">' + option.strItemName + '</option>'));
+                        //ddlResponsid3.append($('<option></option>').val(option.strLedgerName).html(option.strLedgerName));
+                    });
+
+                }
+            })
+
+        });
+
+
+
+        $("#responsid3").on("change", function () {
+            selectMpo = $(this).val();
+            //alert(selectMpo)
+
+            var ddlCustomerlist = $("#idcustomer");
+
+            //alert(selectMpo)
+            $.ajax({
+                url: '@Url.Action("mGetCustomer")',
+                datatype: "json",
+                data: {
+                    strLedgerName: selectMpo
+                },
+                success: function (data) {
+                    ddlCustomerlist.html('');
+                    ddlCustomerlist.append($('<option value=--Select One-->--Select One--</option>'));
+                    $.each(data, function (id, option) {
+
+                        ddlCustomerlist.append($('<option value="' + option.strLedgerName + '">' + option.strCustomerName + '</option>'));
+                        //ddlCustomerlist.append($('<option></option>').val(option.strCustomerCode).html(option.strCustomerName));
+                    });
+
+                }
+            })
+
+        });
+
+
+    });
+
+
+    function showGrid() {
+        $('#datatable4').DataTable({
+            "bDestroy": true,
+
+
+            @*$.ajax({
+                        url: '@Url.Action("gFillStockItemRate")',
+                        datatype: "json",
+                        data: {
+                            strDeComID: strComid,
+                            strItemName: strItemName,
+                            strOrderDate: strOrderDate,
+                            intQty: intQty,
+                            strBranchName:strBranchName
+                        },*@
+
+
+            "select": true,
+            "ajax": {
+                "url": "/SalesOrder/mShowMasterData",
+                "type": "POST",
+                "datatype": "json",
+                //"data": {
+                //    strDeComID: "0003",
+                //    mintVTypee: "",
+                //    strFind: "",
+                //    strExpression: "",
+                //    strUserNamee: "",
+                //    mdteVFromDate: "",
+                //    mdteVToDate: "",
+                //    intSPJ: 0,
+                //    strmySql: "",
+                //    intAreaStauss: 0,
+                //    intStatusCol: 0
+                //},
+
+                "dataSrc": function (response) {
+                    response.draw = response.draw;
+                    response.recordsTotal = response.recordsTotal;
+                    response.recordsFiltered = response.recordsFiltered;
+                    console.log('request.responseText', response);
+                    return response;
+                }
+
+            },
+
+
+
+            "order": [[1, 'asc']],
+            "columns": [
+                  {
+                      title: 'SL',
+                      render: function (
+                          data,
+                          type,
+                          row,
+                          meta
+                      )
+                      {
+                          return '<span>' + (meta.row + 1) + '</span>';
+                      },
+                  },
+                //{
+                //    return type == 'export' ? meta.row + 1 : data
+                //},
+
+                    {
+                        title: 'ID',
+                        data: 'lngSlNo',
+                        name: 'lngSlNo',
+                    
+                      
+                    },
+                    {
+                        title: 'Voucher No',
+                        data: 'strVoucherNo',
+                        name: 'strVoucherNo',
+                    },
+                    {
+                        title: 'Date',
+                        data: 'strTranDate',
+                        name: 'strTranDate',
+                    },
+                    {
+                        title: 'Ledger Name',
+                        data: 'strMerzeName',
+                        name: 'strMerzeName',
+                    },
+                    {
+                        title: 'Branch Name',
+                        data: 'strBranchName',
+                        name: 'strBranchName',
+                    },
+                    {
+                        title: 'Division Name',
+                        data: 'strDivisionName',
+                        name: 'strDivisionName',
+                    },
+                    {
+                        title: 'Area Name',
+                        data: 'strArea',
+                        name: 'strArea',
+                    },
+                    {
+                        title: 'Amount',
+                        data: 'dblAmount',
+                        name: 'dblAmount',
+                    },
+                    {
+                        title: 'App.',
+                        data: 'dblOpnQty',
+                        name: 'dblOpnQty',
+                    },
+           
+                    {
+                       title: 'Check All' + '<input type="checkbox" id="chkAll" onclick="checkAll(this)">',
+                       data: '',
+                       render: function (data,
+                          type,
+                          row,
+                          meta) {
+                      
+                           return '<input type="checkbox" id="chkSingle' + (meta.row + 1) + '" value="" class="chkSingle" onclick="checkSingle(this)" />';
+
+                        },
+                     },
+
+
+                              {
+                                  render: function (data, type, row) {
+                                      return '<button class="btn btn-info fontsize  sales-sloat-ak">   <i class="fa fa-pencil"></i></button>' + "&nbsp" + '<button class="btn btn-danger fontsize  delete-sloat-ak"> <i class="fa fa-trash"></i></button>';
+                                  }
+                              },
+
+                    ],
+
+                    "responsive": true,
+                    "rowCallback": function (row, data) {
+                        //$(row)
+                        // .bind('click')
+                        // .click(function () {
+
+                        //     selectdata = data;
+                        //     console.log('hello delete dataddddddddd', selectdata);
+                        //     //rerender();
+                        // });
+                        $(row).find(".sales-sloat-ak").click(function () {
+                            selectdata = data;
+                            console.log('hello edit dddeeeee', selectdata);
+                            edit(selectdata);
+                            //that.salesss(data);
+                            //that.rerender();
+                        });
+                        $(row).find(".delete-sloat-ak").click(function () {
+                            selectdata = data;
+                            deleteItemsById(selectdata.lngSlNo)
+                            //that.salesss(data);
+                            //that.rerender();
+                        });
+
+                    }
+
+                });
+            }
+
+    function checkAll(chk) {
+
+        var checked = $('#' + chk.id).prop('checked');
+        //alert(checked)
+        $('#datatable4').each(function (i, val) {
+            //alert(checked)
+            $(this).find('.chkSingle').prop('checked', checked);
+            if (checked == true) {
+                //$(this).addClass('bg-danger');
+            }
+            else {
+                //$(this).removeClass('bg-danger');
+            }
+        });
+    }
+
+
+
+
+
+            </script>
+
+
+<script>
+
+
+    var gItemList = [];
+
+    var type = 0;
+    var strOrderNo="";
+    var strMpoName="";
+    var strBrandId="";
+    var strBrandName = "";
+    var strCustomerName = "";
+    var strLocation= "";
+    var strOrderDate = "";
+    var todaydate = new Date();
+
+    var lngSlNo;
+    var strItemGroup = "";
+    var strSubGroup_Name = "";
+    var strItemName = "";
+    var strPowerClasstGet = "";
+    var strPackSizeGet = "";
+    var intItemQty = 0;
+    var dblItemRatesGet = 0;
+    var strPerGet = "";
+    var dblCommissionGet = 0;
+    var intBonusQtyGet = 0;
+    var dblTotalAmount = 0;
+    var intTotalQty = 0;
+
+
+    var intItemQty = 0;
+    var qtyTotal = 0;
+    var addItemList = [];
+    var addItemList2 = [];
+    var qtyTotal = 0;
+    var dblTotalCommition = 0;
+    var dblNetAmount = 0;
+    var strUnitGet = "";
+    var strSubGroup_NameGet = "";
+
+
+    var title = "Add Stock Item";
+ 
+
+    function addOrEditItem() {
+
+        btn = $('#btnAddItem').val();
+
+        if (btn == "Add") {
+            addItem();
+        } if (btn == "Update") {
+            updateItem();
+
+        }
+    }
+
+    function addItem()  {
+        //selectLocation
+        var OrderDate = $('#OrDate').val();
+        if (OrderDate == undefined || OrderDate == null || OrderDate == "") {
+            swal('Required!!!', 'Required Order Date', 'warning')
+            return;
+        }
+        var order_date = $('#OrDate').val();
+       
+        var selectedItem = $('#ddlStockItemlist').val();
+            
+        itemRate('0003', $('#ddlStockGrouplist').val(), $('#ddlStockItemlist').val(), order_date, $('#intQty').val(), $('#responsid2').val());
+
+    }
+ 
+    function showItemview(gridList) {
+
+
+
+
+
+  
+        $('#itemDatatable').DataTable({
+            data: gridList,
+        
+            "bDestroy": true,
+
+            //"scrollX": true,
+            "select": true,
+            columns: [
+
+                {
+                    title: 'SL',
+                    render: function (
+                        data,
+                        type,
+                        row,
+                       meta
+                    ) {
+                        return '<span>' + (meta.row + 1) + '</span>';
+                    },
+                },
+
+                    //{ title: 'Location Name', data: 'strLocation' },dblPercent
+
+                        { title: 'Sub Group', data: 'strSubGroup_Name' },
+                        { title: 'Per', data: 'dblPercent' },
+                        { title: 'Group Name', data: 'strItemGroup' },
+                        { title: 'Item Name', data: 'strItemName' },
+                        
+                        { title: 'Powre/Calss', data: 'strPowerClass' },
+                        { title: 'Pack Size', data: 'strPackSize' },
+                        { title: 'Qty', data: 'intItemQty', className: 'editable' },
+                        { title: 'Rate', data: 'dblItemRate', className: 'editable' },
+                        { title: 'Per', data: 'strUnit' },
+                        { title: 'Total Amount', data: 'dblTotalAmount' },
+                        { title: 'Commission', data: 'dblCommitionVal' },
+                        { title: 'Bonus Qty', data: 'intBonusQty' },
+                        { title: 'Net Amount', data: 'dblItemNetVal' },
+                         {
+                             title: 'Edit',
+                             render: function (data, type, row) {
+                                 return '<button type="button"   class="btn btn-info fontsize  sales-sloat-ak">Edit</button>';
+                             }
+                         },
+                    //{
+                    //    title: 'Qty',
+                    //    render: function (data, type, row) {
+                    //        return '<button type="button"   class="btn btn-danger fontsize  delete-sloat-ak">Delete</button>';
+                    //    }
+                    //},
+            ],
+
+            "responsive": true,
+            "rowCallback": function (row, data) {
+                $(row)
+                 .bind('click')
+                 .click(function () {
+
+                     selectlocationItem = data;
+                     console.log('hello delete dataddddddddd', selectlocationItem);
+                     //rerender();
+                 });
+                $(row).find(".sales-sloat-ak").click(function () {
+                    selectlocationItem = data;
+                    console.log('hello edit dddeeeee', selectlocationItem);
+                    editLocation(selectlocationItem);
+                    //that.salesss(data);
+                    //that.rerender();
+                });
+                $(row).find(".delete-sloat-ak").click(function () {
+                    selectlocationItem = data;
+                    //deletePack(selectdata.lngslNo)
+                    //that.salesss(data);
+                    //that.rerender();
+                });
+
+            }
+        });
+
+    }
+  
+    function  itemRate (strComid,strItemGroup, strItemName, strOrderDate, intQty, strBranchName) {
+      
+        $.ajax({
+            url: '@Url.Action("gFillStockItemRate")',
+            datatype: "json",
+            data: {
+                strDeComID: strComid,
+                strItemGroup: strItemGroup,
+                strItemName: strItemName,
+                strOrderDate: strOrderDate,
+                intQty: intQty,
+                strBranchName: strBranchName
+            },
+            success: function (data) {
+        
+                this.strUnitGet = data.strUnit;
+                this.strPowerClassGet = data.strPowerClass;
+                this.strPackSizeGet = data.strPackSize;
+                this.dblItemRatesGet = data.dblBranchRate;
+                this.strUnitGet = data.strUnit;
+                this.intBonusQtyGet = data.dblbonusQty;
+                this.strSubGroup_NameGet = data.strSubGroup_Name;
+                
+
+                //alert($('#intQty').val() * this.dblItemRatesGet);
+
+
+
+                var result = false;
+                console.log("gLocationList gLocationList", addItemList);
+                for (i = 0; i < addItemList.length; i++) {
+                    if (addItemList[i].strItemName == $('#ddlStockItemlist').val()) {
+
+                        result = true;
+
+                    }
+                }
+
+                if (result === false) {
+                    console.log("result", result);
+                    addItemList.push({
+
+     
+
+                        strItemGroup: $('#ddlStockGrouplist').val(),
+                        strItemName: $('#ddlStockItemlist').val(),
+                        strPowerClass: this.strPowerClassGet,
+                        strSubGroup_Name: this.strSubGroup_NameGet,
+                        strPackSize: this.strPackSizeGet,
+                        intItemQty: $('#intQty').val(),
+                        dblItemRate: this.dblItemRatesGet,
+                        strUnit: this.strUnitGet,
+                        //dblCommission: this.dblcom,
+                        intBonusQty: this.intBonusQtyGet,
+                        dblTotalAmount: $('#intQty').val() * this.dblItemRatesGet,
+                        strCustomer: $('#idcustomer').val(),
+                        strDate: $('#OrDate').val()
+                        
+
+                    });
+                    //cleardatda();
+                } else {
+                    //alert("You Alrady Add This Location");
+                    swal("Adding Failed!", "You Alrady Add This Item.", "warning");
+                    //Swal.fire({
+                    //    title: "Adding Failed",
+                    //    text: "This Item Already Existing",
+                    //    icon: "warning"
+                    //});
+                    return
+                }
+                console.log('hello edit dddeeeee', addItemList);
+                $.ajax({
+                    type: "POST",
+                    url: "/SalesOrder/CommossionCalculet",
+                    data: JSON.stringify(addItemList),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                           gItemList = [];
+                           gItemList.push(data);
+                           console.log('hello edit New', gItemList);
+                        //alert(data[0].strItemGroup)
+
+                        showItemview(data);
+
+                        //addItemList2.push({
+
+                
+                        //    strItemGroup: data.strItemGroup,
+                        //    strItemName: data.strItemName,
+                        //    strPowerClass:data.strPowerClass,
+                        //    strSubGroup_Name: data.strPowerClass,
+                        //    strPackSize: data.strPackSize,
+                        //    intItemQty: data.intItemQty,
+                        //    dblItemRate: data.dblItemRate,
+                        //    strUnit: data.strUnit,
+                        //    dblCommission: data.dblCommitionVal,
+                        //    intBonusQty: data.intBonusQty,
+                        //    dblTotalAmount: data.dblTotalAmount,
+                        //    dblNetAmount: data.dblItemNetVal,
+                        //    strCustomer: data.strCustomer,
+                        //    strDate: data.strDate
+
+
+                        //});
+                    }
+                   
+                });
+                console.log('hello edit ccsskkkkkkkkkkkkkkkkkkkkkkk', data);
+                //commissionCal();
+                //showItemview();
+                TotalQty();
+                TotalItem();
+
+            }
+         
+        })
+         //return type;
+ }
+    function saveOrUpdates() {
+        var btn = $('#btnsaveOrder').val()
+        if (btn == "Save") {
+            saveData();
+
+        } else {
+
+            console.log('request.responseText', selectdata);
+            UpdateData();
+        }
+
+    }
+    function saveData() {
+
+        //alert(brandId);
+
+        //alert(brandName);
+        jQuery.ajaxSettings.traditional = true;
+        //var list = [];
+        //list = gItemList;
+        console.log('list list', gItemList);
+
+        var empObj = {
+
+
+            strBranchName: $('#responsid2').val(),
+            strCustomer: $('#idcustomer').val(),
+            //strItemGroup: selectGroup,
+            strLedgerName: $('#responsid3').val(),
+            strOrderNo: $('#ID_OrderNumber').val(),
+            strOrderDate: $('#OrDate').val(),
+            strLocation: $('#ddllocationid').val(),
+            detailsList: gItemList,
+
+        };
+        console.log("sdfsfsdfsdf", empObj);
+
+        $.ajax({
+            url: "/SalesOrder/msaveSalesOrder",
+            type: "POST",
+            data: JSON.stringify(empObj),
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+
+                alert(result);
+                if (result != "error") {
+
+
+                    var idd = result;
+                    saveimage(idd);
+                    $('#itemModal').modal('hide');
+                    cleardatda();
+                    showGrid();
+                } else {
+                    alert("resutl is ", result);
+                };
+
+            }
+        });
+    }
+
+    function cleardatda() {
+        $("#datatable4").dataTable().fnDestroy();
+        //$('#btnAddlocation').val("Add");
+
+
+        $('#ItemName').val("");
+        $('#strItemDescription').val("");
+        $('#brandIdtest').val("");
+        $('#groupList').val("");
+        $('#strUnit').val("");
+        $('#btnsaveItem').val("Save")
+
+
+        $('#intRate').val("");
+        $('#intRate').val("");
+        $('#intQty').val("");
+
+    }
+
+    function UpdateData() {
+
+        alert('lskdjfl');
+        var list = [];
+        list = gLocationList;
+        console.log('list list', list);
+        var empObj = {
+
+            lngSlNo: lngSlNo,
+
+            strItemName: $('#ItemName').val(),
+            strItemGroup: selectGroup,
+            strUnit: $('#strUnit').val(),
+            strItemDescription: $('#strItemDescription').val(),
+            strDate: $('#strDate').val(),
+            strStatus: $('#status').val(),
+            dblOpnQty: qtyTotal,
+            dblOpnValue: dblOpnValues,
+            dblOpnRate: dblOpnRates,
+            gLocationList: list,
+            strBrand_ID: brandId,
+            strBrand_Name: brandName,
+
+
+            //strItemName: $('#ItemName').val(),
+            //strItemGroup: selectGroup,
+            //strUnit: $('#strUnit').val(),
+            //strItemDescription: $('#strItemDescription').val(),
+            //strDate: $('#strDate').val(),
+            //strStatus: $('#status').val(),
+            //dblOpnQty: qtyTotal,
+            //gLocationList: list,
+            //strIOldtemcode: oldItemNameCode,
+
+        };
+        $.ajax({
+            url: "/Item/updateData",
+            type: "POST",
+            data: JSON.stringify(empObj),
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+
+                if (result == "Ok") {
+                    var idd = result;
+                    saveimage(idd);
+                    $('#itemModal').modal('hide');
+                    //cleardatda();
+                    //showGrid();
+                } else {
+                    cleardatda();
+                    alert("resutl sssssis ", result);
+                };
+
+            }
+        });
+
+
+    }
+
+        function TotalItem() {
+
+
+            $('#itemDatatable')
+            //var intTotalQtyttt = 0;
+
+            //for (i = 0; i < addItemList.length; i++) {
+            //    //intTotalQty = intTotalQty + addItemList[i].intItemQty;
+
+            //    intTotalQtyttt = intTotalQtyttt + parseInt(addItemList[i].intItemQty);
+            //    console.log(intTotalQtyttt)
+            //}
+            //intTotalQty = intTotalQtyttt;
+            //alert(intTotalQty);
+
+            ////$('#qtyTotal').value = intTotalQty;
+
+            var table = $('#itemDatatable').DataTable();
+        
+
+            document.getElementById("Totalitem").innerHTML = "Total Item : " + table.rows().count();
+
+        }
+        function TotalQty() {
+
+            var intTotalQtyttt = 0;
+
+            for (i = 0; i < addItemList.length; i++) {
+                //intTotalQty = intTotalQty + addItemList[i].intItemQty;
+      
+                intTotalQtyttt = intTotalQtyttt + parseInt(addItemList[i].intItemQty);
+                console.log(intTotalQtyttt)
+            }
+            intTotalQty = intTotalQtyttt;
+            alert(intTotalQty);
+
+            //$('#qtyTotal').value = intTotalQty;
+            document.getElementById("qtyTotal").innerHTML = "Total Qty : " + intTotalQty;
+
+        }
+
+
+</script>
+<script>
+
+    function myFunction() {
+  
+        var rows_selected = [];
+
+
+        //$.each(rows_selected, function (index, rowId) {
+        //    // Create a hidden element 
+        //    $(form).append(
+        //      $('<input>')
+        //      .attr('type', 'hidden')
+        //      .attr('name', 'id[]')
+        //      .val(rowId)
+        //    );
+        //});
+
+        //var table = $('#datatable4').DataTable();
+
+        //table
+        //    .column(0)
+        //    .data()
+        //    .each(function (value, index) {
+        //        console.log('Data in index: ' + index + ' is: ' + value);
+        //    });
+
+
+        //$("#itemDatatable").each(function () {
+        //    var row = $(this);
+       
+            //var chkVal = row.find('.chkSingle').prop('checked');
+            //alert(row);
+            //if (chkVal == true) {
+            //    var leave = {};
+            //    leave.strLeaveKey = row.find(".hdnStrLeaveKey").val();
+            //    leave.strCardNo = row.find(".hdnstrCardNo").val();
+            //    leave.strLeaveID = row.find(".hdnstrLeaveID").val();
+            //    leave.strStartDate = row.find(".hdnstrDate").val();
+            //    leave.strEnddate = row.find(".hdnstrDateOfBirth").val();
+            //    leave.intdays = row.find(".hdnintDays").val();
+            //    leave.intFailHr = 1;
+            //    leaveList.push(leave);
+            //}
+
+        //});
+
+
+     
+    };
+</script>
+

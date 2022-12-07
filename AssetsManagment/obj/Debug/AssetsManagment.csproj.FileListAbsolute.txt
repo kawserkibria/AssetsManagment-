@@ -1,0 +1,833 @@
+D:\c#\project\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll.config
+D:\c#\project\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\AssetsManagment.pdb
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe.config
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\csc.rsp
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe.config
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\csi.rsp
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.AppContext.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Console.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Http.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe.config
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\vbc.rsp
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+D:\c#\project\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Http.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Razor.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\WebGrease.dll
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Http.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.Razor.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.pdb
+D:\c#\project\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\c#\project\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csprojAssemblyReference.cache
+D:\c#\project\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csproj.CoreCompileInputs.cache
+D:\c#\project\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csproj.CopyComplete
+D:\c#\project\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.dll
+D:\c#\project\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.pdb
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll.config
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\AssetsManagment.pdb
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe.config
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\csc.rsp
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe.config
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\csi.rsp
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.AppContext.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Console.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Http.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe.config
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\vbc.rsp
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Http.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Razor.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\WebGrease.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Http.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.Razor.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.pdb
+F:\c# mvc\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\c# mvc\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.dll
+F:\c# mvc\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.pdb
+F:\c# mvc\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll.config
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\AssetsManagment.pdb
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe.config
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\csc.rsp
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe.config
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\csi.rsp
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.AppContext.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Console.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Http.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe.config
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\vbc.rsp
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Http.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Razor.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\WebGrease.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Http.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.Razor.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.pdb
+\\PC1\Share\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\PC1\Share\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+\\PC1\Share\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.dll
+\\PC1\Share\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll.config
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\csc.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\csi.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.AppContext.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Console.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Http.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\vbc.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Dutility.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Http.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Razor.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\WebGrease.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Http.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.Razor.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\AssetsManagment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\csc.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\csc.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\csi.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\csi.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.AppContext.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Console.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Http.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\vbc.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\vbc.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Http.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Razor.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\WebGrease.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Newtonsoft.Json.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Net.Http.Formatting.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Helpers.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Http.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Http.WebHost.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Mvc.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Optimization.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.Razor.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Antlr3.Runtime.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\AssetsManagment.dll.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\AssetsManagment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csc.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csc.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csc.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csi.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csi.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csi.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.AppContext.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Console.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Net.Http.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\vbc.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\vbc.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\vbc.rsp
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Antlr3.Runtime.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Newtonsoft.Json.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Net.Http.Formatting.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Helpers.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.WebHost.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Mvc.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Optimization.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Razor.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\WebGrease.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Newtonsoft.Json.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Net.Http.Formatting.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Helpers.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.WebHost.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Mvc.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Optimization.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Razor.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Antlr3.Runtime.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\obj\Debug\AssetsManagment.dll
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\obj\Debug\AssetsManagment.pdb
+F:\c# mvc\New folder (2)\AssetsManagment\New folder\AssetsManagment 07-08-21\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\AssetsManagment.dll.config
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\AssetsManagment.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\AssetsManagment.pdb
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csc.exe
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csc.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csc.rsp
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csi.exe
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csi.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\csi.rsp
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.AppContext.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Console.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Net.Http.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\vbc.exe
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\vbc.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\vbc.rsp
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Antlr3.Runtime.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Newtonsoft.Json.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Net.Http.Formatting.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Helpers.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.WebHost.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Mvc.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Optimization.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Razor.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\WebGrease.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Newtonsoft.Json.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Net.Http.Formatting.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Helpers.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Http.WebHost.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Mvc.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Optimization.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.Razor.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Antlr3.Runtime.pdb
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\obj\Debug\AssetsManagment.dll
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\obj\Debug\AssetsManagment.pdb
+E:\Work\DPL WEB EP\AssetsManagment 07-08-21\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\AssetsManagment.dll.config
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\AssetsManagment.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\AssetsManagment.pdb
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\csc.exe
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\csc.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\csc.rsp
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\csi.exe
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\csi.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\csi.rsp
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.AppContext.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Console.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Net.Http.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\vbc.exe
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\vbc.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\vbc.rsp
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Antlr3.Runtime.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Newtonsoft.Json.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Net.Http.Formatting.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Helpers.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Http.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Http.WebHost.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Mvc.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Optimization.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Razor.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.WebPages.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\WebGrease.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Newtonsoft.Json.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Net.Http.Formatting.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Helpers.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Http.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Http.WebHost.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Mvc.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Optimization.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.Razor.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.WebPages.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Antlr3.Runtime.pdb
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\obj\Debug\AssetsManagment.dll
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\obj\Debug\AssetsManagment.pdb
+E:\Work\DPL WEB EP\AssetsManagment 23-08-21\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\AssetsManagment.dll.config
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\AssetsManagment.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\AssetsManagment.pdb
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csc.exe
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csc.exe.config
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csc.rsp
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csi.exe
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csi.exe.config
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csi.rsp
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.AppContext.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Console.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Net.Http.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\vbc.exe
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\vbc.exe.config
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\vbc.rsp
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Antlr3.Runtime.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Newtonsoft.Json.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Net.Http.Formatting.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Helpers.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.WebHost.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Mvc.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Optimization.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Razor.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\WebGrease.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Newtonsoft.Json.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Net.Http.Formatting.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Helpers.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.WebHost.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Mvc.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Optimization.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Razor.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Antlr3.Runtime.pdb
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\obj\Debug\AssetsManagment.dll
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\obj\Debug\AssetsManagment.pdb
+E:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\AssetsManagment.dll.config
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\AssetsManagment.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\AssetsManagment.pdb
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csc.exe
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csc.exe.config
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csc.rsp
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csi.exe
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csi.exe.config
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\csi.rsp
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.AppContext.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Console.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Globalization.Calendars.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.Compression.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.FileSystem.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Net.Http.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Net.Sockets.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.ValueTuple.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.XPath.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\vbc.exe
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\vbc.exe.config
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\vbc.rsp
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\VBCSCompiler.exe
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Antlr3.Runtime.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Newtonsoft.Json.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Net.Http.Formatting.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Helpers.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.WebHost.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Mvc.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Optimization.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Razor.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Deployment.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Razor.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\WebGrease.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Newtonsoft.Json.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Net.Http.Formatting.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Helpers.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Http.WebHost.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Mvc.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Optimization.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.Razor.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Deployment.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\System.Web.WebPages.Razor.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Antlr3.Runtime.pdb
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\obj\Debug\AssetsManagment.dll
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\obj\Debug\AssetsManagment.pdb
+D:\Work\AssetsManagment 23-08-21 S O\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
