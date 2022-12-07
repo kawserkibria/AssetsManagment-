@@ -76,6 +76,17 @@
 
                                         <div class="row">
                                             <div class="col-sm-4" style="margin: 5px;">
+                                                <h5 style="text-align: right;">Item Code</h5>
+                                            </div>
+                                            <div class="col-sm-7 " style="margin: 5px;">
+                                                <input type="text" class="form-control" id="ItemCode" placeholder="Item Code" />
+
+                                            </div>
+
+                                        </div>
+
+                                        @*<div class="row">
+                                            <div class="col-sm-4" style="margin: 5px;">
                                                 <h5 style="text-align: right;">Item Description</h5>
                                             </div>
 
@@ -88,6 +99,27 @@
                                                           name="strItemDescription"></textarea>
 
                                             </div>
+                                        </div>*@
+                                    
+                                        
+                                        <div class="row">
+                                            <div class="col-sm-4" style="margin: 5px;">
+                                                <h5 style="text-align: right;">Group</h5>
+                                            </div>
+                                            <div class="col-sm-7 " style="margin: 5px;">
+
+                                                <div>
+                                                    <select id="groupList" class="form-control">
+                                                        <option value="">--Select One--</option>
+                                                        @foreach (var group in ViewBag.groupList)
+                                                        {
+                                                            <option value="@group.NAME">@group.NAME</option>
+                                                        }
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-4" style="margin: 5px;">
@@ -110,19 +142,20 @@
                                             </div>
 
                                         </div>
-                                        
                                         <div class="row">
                                             <div class="col-sm-4" style="margin: 5px;">
-                                                <h5 style="text-align: right;">Group</h5>
+                                                <h5 style="text-align: right;">Model</h5>
                                             </div>
                                             <div class="col-sm-7 " style="margin: 5px;">
 
                                                 <div>
-                                                    <select id="groupList" class="form-control">
+                                                    <select id="idModel" class="form-control" onchange="brand_fn(this)">
+
                                                         <option value="">--Select One--</option>
-                                                        @foreach (var group in ViewBag.groupList)
+                                                        @foreach (var brand in ViewBag.Brandlist)
                                                         {
-                                                            <option value="@group.NAME">@group.NAME</option>
+                                                            <option id="@brand.intBrandID" value="@brand.BRAND_NAME">@brand.BRAND_NAME</option>
+
                                                         }
                                                     </select>
                                                 </div>
@@ -130,7 +163,6 @@
                                             </div>
 
                                         </div>
-
                                         <div class="row">
                                             <div class="col-sm-4" style="margin: 5px; ">
                                                 <h5 style="text-align: right;">Unit</h5>

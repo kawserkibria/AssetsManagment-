@@ -15,7 +15,7 @@
             </li>
         
             <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="BrandTab()" data-toggle="tab" href="#menu6" role="tab" aria-controls="Brand" aria-selected="false">Model</a>
+                <a class="nav-link" id="settings-tab" onclick="ModelTab()" data-toggle="tab" href="#menu9" role="tab" aria-controls="Model" aria-selected="false">Model</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link  " id="packViewTab" onclick="packViewTab()" data-toggle="tab" href="#menu1" role="tab" aria-controls="profile" aria-selected="false">Unit</a>
@@ -24,17 +24,18 @@
                 <a class="nav-link  " id="SupplierTab" onclick="SupplierTab()" data-toggle="tab" href="#menu8" role="tab" aria-controls="profile" aria-selected="false">Supplier Name</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" id="settings-tab" onclick="ItemViewTab()" data-toggle="tab" href="#menu3" role="tab" aria-controls="settings" aria-selected="false">Stock Items</a>
+            </li>
+            @*<li class="nav-item">
                 <a class="nav-link" id="messages-tab" onclick="LocationViewTab()" data-toggle="tab" href="#menu2" role="tab" aria-controls="messages" aria-selected="false">Location</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="ItemViewTab()" data-toggle="tab" href="#menu3" role="tab" aria-controls="settings" aria-selected="false">Items</a>
-            </li>
+        
             <li class="nav-item">
                 <a class="nav-link" id="settings-tab" onclick="DepartmentViewTab()" data-toggle="tab" href="#menu4" role="tab" aria-controls="Department" aria-selected="false">Department</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="settings-tab" onclick="TreeViewTab()" data-toggle="tab" href="#menu7" role="tab" aria-controls="Tree" aria-selected="false">Tree View</a>
-            </li>
+            </li>*@
        
         </ul>
         <div class="tab-content">
@@ -130,6 +131,10 @@
                 <div id="menu8">
                 </div>
             </div>
+            <div id="menu9" class="tab-pane fade">
+                <div id="menu9">
+                </div>
+            </div>
         </div>
 
     </div>
@@ -150,6 +155,23 @@
 </div>*@
 
 <script>
+    function ModelTab() {
+
+
+        $.ajax({
+            url: '/SupplierInfo/Index',
+            type: 'GET',
+
+            dataType: 'html',
+            contentType: 'application/json',
+            success: function (data) {
+                $('#menu8').html(data);
+            },
+            error: function (ex) {
+            }
+        });
+
+    }
     function SupplierTab() {
 
 
