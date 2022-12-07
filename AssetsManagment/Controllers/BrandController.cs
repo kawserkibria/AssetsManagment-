@@ -16,6 +16,7 @@ namespace AssetsManagment.Controllers
         // GET: /Brand/
         public ActionResult Index()
         {
+           //dddd
             return PartialView("BrandPartialView");
         }
 
