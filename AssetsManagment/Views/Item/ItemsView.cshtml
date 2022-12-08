@@ -4,7 +4,7 @@
 <div class="card-header" style="background:  #194771; color: white;">
     <div class="row">
         <div class="col-md-8">
-            <h3 style="color: gold;">Items</h3>
+            <h3 style="color: gold;">Items List</h3>
 
 
 
@@ -29,9 +29,8 @@
 
                 <div class="modal-dialog modal-lg bd-example-modal-lg ">
                     <div class="modal-content">
-                        <div class="modal-header ">
-
-                            <h5 class="modal-title  text-center" style="margin: 0 auto;" id="exampleModalLabel"></h5>
+                        <div class="modal-header " style="background: #194771">
+                            <h5 style=" float:left ;color:white" id="exampleModalLabel"></h5>
                             <p>  </p>
                             <button type="button"
                                     class="close"
@@ -298,8 +297,7 @@
                                 </div>
                             </div>
 
-                            <div class="modal-footer">
-                                @*<button type="submit" class="btn btn-outline-success " onclick="saveOrUpdates()">Submit</button>*@
+                            <div class="modal-footer justify-content-lg-end  border-0">
                                 <span><input type="button" class="btn btn-primary" id="btnsaveItem" onclick="saveOrUpdates();" value="Save"></input></span>
                                 <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="bsModalRef.hide()">Cancel</button>
                             </div>
@@ -320,7 +318,8 @@
 
 
         <script>
-
+            var title = "Add Item";
+            document.getElementById("exampleModalLabel").innerHTML = title;
 
             function readURL(input) {
                 alert("check")

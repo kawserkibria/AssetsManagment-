@@ -159,13 +159,13 @@
 
 
         $.ajax({
-            url: '/SupplierInfo/Index',
+            url: '/Model/Index',
             type: 'GET',
 
             dataType: 'html',
             contentType: 'application/json',
             success: function (data) {
-                $('#menu8').html(data);
+                $('#menu9').html(data);
             },
             error: function (ex) {
             }
@@ -229,7 +229,7 @@
         //$('.common-button-print').hide();
         //$('.common-button-update').hide();
         $.ajax({
-            url: '/PackSize/Index',
+            url: '/Unit/Index',
             type: 'GET',
             //data: { StudentIdC: studentIdC },
             dataType: 'html',

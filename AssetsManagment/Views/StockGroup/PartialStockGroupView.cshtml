@@ -5,7 +5,7 @@
 <div class="card-header" style="background:  #194771; color: white;">
     <div class="row">
         <div class="col-md-8">
-            <h3 style="color: gold;">Stock Group</h3>
+            <h3 style="color: gold;">Stock Group List</h3>
 
 
 
@@ -28,9 +28,9 @@
 
     <div class="modal-dialog modal-lg group-example-modal-lg ">
         <div class="modal-content">
-            <div class="modal-header ">
+            <div class="modal-header " style="background: #194771">
 
-                <h5 class="modal-title  text-center" style="margin: 0 auto;" id="exampleModalLabel"></h5>
+                <h5 style=" float:left ;color:white" id="exampleModalLabel"></h5>
                 <p>  </p>
                 <button type="button"
                         class="close"
@@ -45,33 +45,23 @@
                     <div>
                         <div class="form-group">
                             <form>
-                                <div class="row">
-                                    <div class="form-group col-md-3 ">
-                                        <label for="EmployeeId">Name</label>
+                           
+                                    <div class="form-group col-md-12 ">
+                                        <label for="EmployeeId">Stock Group Name</label>
                                         <input type="text" class="form-control" id="StockGroupName" placeholder="Name" />
                                     </div>
-                                    <div class="form-group col-md-3 ">
-                                        <label for="Name">Under</label>
-                                        <select id="UnderG" class="form-control" aria-describedby="basic-addon2"></select>
+                                <div class="form-group col-md-12 ">
+                                    <label for="Name">Under</label>
+                                    <select id="UnderG" class="form-control" aria-describedby="basic-addon2"></select>
 
-
-                                    </div>
-
-                                    <div class="form-group col-md-3 ">
-                                        <label for="EmployeeId">Status</label>
-                                        <select id="gStatus" class="form-control" aria-describedby="basic-addon2">
-                                            <option value="1">Yes</option>
-                                            <option value="0">No</option>
-                                        </select>
-
-                                    </div>
 
                                 </div>
 
-                                <div class="modal-footer justify-content-center">
+
+
+                                <div class="modal-footer justify-content-lg-end  border-0">
 
                                     <span><input type="button" class="btn btn-primary" id="btnStockAdds" onclick="saveOrUpdate()" value="Save"></input></span>
-                                    @*<span><input type="button" class="btn btn-primary" id="btnAdds" onclick="return cleardatda();" value="Clear"></input></span>*@
                                     <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="bsModalRef.hide()">Cancel</button>
                                 </div>
 
@@ -96,7 +86,7 @@
 @*<script type="text/javascript" src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/js/bootstrap.min.js"></script>*@
 
 <script>
-    var title = "test Item";
+    var title = "Add Stock Group";
 
 
 
@@ -398,7 +388,7 @@
             data: "{}",
             success: function (data) {
                 console.log('hello delete dataddddddddd', data);
-                var s = '<option value="-1">Please Select a Under Group</option>';
+                var s = '<option value="-1">Please Select Under</option>';
                 for (var i = 0; i < data.length; i++) {
                     s += '<option value="' + data[i].NAME + '">' + data[i].NAME + '</option>';
                 }

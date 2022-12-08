@@ -7,7 +7,7 @@
 
 <div class="card-header" style="background:  #194771; color: white;">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8" >
             <h3 style="color: gold;">Brand Name</h3>
 
 
@@ -47,9 +47,9 @@
 
     <div class="modal-dialog modal-lg b-example-modal-lg ">
         <div class="modal-content">
-            <div class="modal-header ">
+            <div class="modal-header " style="background: #194771">
 
-                <h5 class="modal-title  text-center" style="margin: 0 auto;" id="exampleModalLabel"></h5>
+                <h5 style=" float:left ;color:white" id="exampleModalLabel" ></h5>
                 <p>  </p>
                 <button type="button"
                         class="close"
@@ -64,26 +64,21 @@
                     <div>
                         <div class="form-group">
                             <form>
-                                <div class="row">
-                                    <div class="form-group col-md-3 ">
+                               
+                                    <div class="form-group col-md-12 ">
                                         <label for="EmployeeId">Brand Name</label>
                                         <input type="text" class="form-control" id="BrandName" placeholder="Name" />
                                     </div>
-                                    <div class="form-group col-md-3 ">
-                                        <label for="EmployeeId">Status</label>
-                                        <select id="bStatus" class="form-control" aria-describedby="basic-addon2">
-                                            <option value="1">Yes</option>
-                                            <option value="0">No</option>
-                                        </select>
-
+                                    <div class="form-group col-md-12 ">
+                                        <label for="Name">Under</label>
+                                        <select id="UnderBrand" class="form-control" aria-describedby="basic-addon2"></select>
                                     </div>
 
-                                </div>
+                             
 
-                                <div class="modal-footer justify-content-center">
+                                <div class="modal-footer justify-content-lg-end  border-0">
 
                                     <span><input type="button" class="btn btn-primary" id="btnBrandAdds" onclick="saveOrUpdate()" value="Save"></input></span>
-                                    @*<span><input type="button" class="btn btn-primary" id="btnAdds" onclick="return cleardatda();" value="Clear"></input></span>*@
                                     <span><button type="button" class="btn btn-danger" data-dismiss="modal" id="btnBrandCencel" (click)="bsModalRef.hide();  onclick=" cleardatda()">Cancel</button></span>
                                 </div>
 
@@ -118,10 +113,31 @@
     document.getElementById("exampleModalLabel").innerHTML = title;
 
     $(document).ready(function () {
-        //getUnderList();
+        getUnderList();
         //showGrid();
 
     });
+
+    function getUnderList() {
+
+        $.ajax({
+            url: '/StockGroup/getUnderList',
+            type: 'GET',
+            data: "{}",
+            success: function (data) {
+                console.log('hello delete dataddddddddd', data);
+                var s = '<option value="-1">Please Select Under</option>';
+                for (var i = 0; i < data.length; i++) {
+                    s += '<option value="' + data[i].NAME + '">' + data[i].NAME + '</option>';
+                }
+                $("#UnderBrand").html(s);
+            },
+
+            error: function (ex) {
+
+            }
+        });
+    }
 
 
     var selectdata = "";
@@ -372,26 +388,7 @@
 
     }
 
-    function getUnderList() {
 
-        $.ajax({
-            url: '/StockGroup/getUnderList',
-            type: 'GET',
-            data: "{}",
-            success: function (data) {
-                console.log('hello delete dataddddddddd', data);
-                var s = '<option value="-1">Please Select a Under Group</option>';
-                for (var i = 0; i < data.length; i++) {
-                    s += '<option value="' + data[i].NAME + '">' + data[i].NAME + '</option>';
-                }
-                $("#UnderG").html(s);
-            },
-
-            error: function (ex) {
-
-            }
-        });
-    }
 
     function deletef(id) {
          
