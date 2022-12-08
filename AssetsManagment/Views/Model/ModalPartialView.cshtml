@@ -3,7 +3,7 @@
 @*<div><button type="button" class="btn btn-primary" data-toggle="modal" id="myBtn" data-target=".test-example-modal-lg">Add </button></div>*@
 
 
-<div class="card-header" style="background:  #194771; color: white;">
+@*<div class="card-header" style="background:  #194771; color: white;">
     <div class="row">
         <div class="col-md-8">
             <h3 style="color: gold;">Model List</h3>
@@ -22,15 +22,39 @@
             </div>
         </div>
     </div>
+</div>*@
+
+<div class="card-header" style="background:  #194771; color: white;">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 style="color: gold;">Model List</h3>
+
+
+
+        </div>
+        <div class="col-md-4" style="position: relative;">
+            <div class="btnAllRow">
+                <button title="Units"
+                        style="margin: 2px;"
+                        class="btn btn-success"
+                        data-toggle="modal" id="myBtn" data-target=".Model-example-modal-lg">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Model
+                </button>
+
+            </div>
+        </div>
+    </div>
 </div>
+
+<hr />
 <hr />
 
-<div class="modal fade group-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="groupModal">
 
-    <div class="modal-dialog modal-lg group-example-modal-lg ">
+<div class="modal fade Model-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true" id="ModelModal">
+    <div class="modal-dialog modal-lg Model-example-modal-lg ">
         <div class="modal-content">
             <div class="modal-header " style="background: #194771">
-                <h5 style=" float:left ;color:white" id="exampleModalLabel"></h5>
+                <h5 style=" float:left ;color:white" id="exampleModalLabelModel"></h5>
                 <p>  </p>
                 <button type="button"
                         class="close"
@@ -113,7 +137,7 @@
     }
 
 
-    document.getElementById("exampleModalLabel").innerHTML = title;
+    document.getElementById("exampleModalLabelModel").innerHTML = title;
 
 
 

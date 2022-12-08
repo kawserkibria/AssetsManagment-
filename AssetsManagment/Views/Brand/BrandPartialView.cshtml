@@ -14,13 +14,14 @@
 
         </div>
         <div class="col-md-4" style="position: relative;">
-            <div class="btnAllRow">
+            <button class="btn btn-primary" id="btnsaveItem" data-toggle="modal" data-target="#brandModal">+Add New</button>&nbsp;
+            @*<div class="btnAllRow">
                 <button title="Add Brand"
                         style="margin: 2px;"
                         class="btn btn-success"
                         data-toggle="modal" id="myBtn" data-target=".b-example-modal-lg">
                     <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Brand
-                </button>
+                </button>*@
                 @*<button title="Edit Room"
                             style="margin: 2px;"
                             data-toggle="modal"
@@ -36,27 +37,23 @@
                             class="btn btn-danger">
                         <i class="fas fa-trash-alt" aria-hidden="true"></i>&nbsp;Delete
                     </button>*@
-            </div>
+            @*</div>*@
         </div>
     </div>
 </div>
 
 <hr />
 
-<div class="modal fade b-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="brandModal">
+<div class="modal fade b-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true" id="brandModal">
 
     <div class="modal-dialog modal-lg b-example-modal-lg ">
         <div class="modal-content">
             <div class="modal-header " style="background: #194771">
 
-                <h5 style=" float:left ;color:white" id="exampleModalLabel" ></h5>
+                <h5 style=" float:left ;color:white" id="exampleModalBrand"></h5>
                 <p>  </p>
-                <button type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close">
-                    <span>&times;</span>
-                </button>
+              
+                <button type="button" class="close" style="background:  #194771; color: white;" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
             </div>
 
             <div class="modal-body crudForm">
@@ -64,17 +61,17 @@
                     <div>
                         <div class="form-group">
                             <form>
-                               
-                                    <div class="form-group col-md-12 ">
-                                        <label for="EmployeeId">Brand Name</label>
-                                        <input type="text" class="form-control" id="BrandName" placeholder="Name" />
-                                    </div>
-                                    <div class="form-group col-md-12 ">
-                                        <label for="Name">Under</label>
-                                        <select id="UnderBrand" class="form-control" aria-describedby="basic-addon2"></select>
-                                    </div>
 
-                             
+                                <div class="form-group col-md-12 ">
+                                    <label for="EmployeeId">Brand Name</label>
+                                    <input type="text" class="form-control" id="BrandName" placeholder="Name" />
+                                </div>
+                                <div class="form-group col-md-12 ">
+                                    <label for="Name">Under</label>
+                                    <select id="UnderBrand" class="form-control" aria-describedby="basic-addon2"></select>
+                                </div>
+
+
 
                                 <div class="modal-footer justify-content-lg-end  border-0">
 
@@ -108,12 +105,13 @@
 
 
 <script>
-    var title = "Brand";
+  
+    var title = "Add Brand";
 
-    document.getElementById("exampleModalLabel").innerHTML = title;
-
+    document.getElementById("exampleModalBrand").innerHTML = title;
     $(document).ready(function () {
-        getUnderList();
+      
+        //getUnderList();
         //showGrid();
 
     });

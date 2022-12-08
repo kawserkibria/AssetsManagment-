@@ -8,23 +8,23 @@
                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#stockGroup" role="tab" aria-controls="home" aria-selected="true">Stock Group</a>
             </li>*@
             <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="stockGroupTab()" data-toggle="tab" href="#menu5" role="tab" aria-controls="Department" aria-selected="false">Stock Group</a>
+                <a class="nav-link active " id="settings-tab" onclick="stockGroupTab()" data-toggle="tab" href="#menu1"  role="tab" aria-controls="Department" aria-selected="false">Stock Group</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="BrandTab()" data-toggle="tab" href="#menu6" role="tab" aria-controls="Brand" aria-selected="false">Brand Name</a>
+                <a class="nav-link" id="settings-tab" onclick="BrandTab()" data-toggle="tab" href="#menu2" role="tab" aria-controls="Brand" aria-selected="false">Brand Name</a>
             </li>
         
             <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="ModelTab()" data-toggle="tab" href="#menu9" role="tab" aria-controls="Model" aria-selected="false">Model</a>
+                <a class="nav-link" id="settings-tab" onclick="ModelTab()" data-toggle="tab" href="#menu3" role="tab" aria-controls="Model" aria-selected="false">Model</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " id="packViewTab" onclick="packViewTab()" data-toggle="tab" href="#menu1" role="tab" aria-controls="profile" aria-selected="false">Unit</a>
+                <a class="nav-link  " id="packViewTab" onclick="packViewTab()" data-toggle="tab" href="#menu4" role="tab" aria-controls="profile" aria-selected="false">Unit</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " id="SupplierTab" onclick="SupplierTab()" data-toggle="tab" href="#menu8" role="tab" aria-controls="profile" aria-selected="false">Supplier Name</a>
+                <a class="nav-link  " id="SupplierTab" onclick="SupplierTab()" data-toggle="tab" href="#menu5" role="tab" aria-controls="profile" aria-selected="false">Supplier Name</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="settings-tab" onclick="ItemViewTab()" data-toggle="tab" href="#menu3" role="tab" aria-controls="settings" aria-selected="false">Stock Items</a>
+                <a class="nav-link" id="settings-tab" onclick="ItemViewTab()" data-toggle="tab" href="#menu6" role="tab" aria-controls="settings" aria-selected="false">Stock Items</a>
             </li>
             @*<li class="nav-item">
                 <a class="nav-link" id="messages-tab" onclick="LocationViewTab()" data-toggle="tab" href="#menu2" role="tab" aria-controls="messages" aria-selected="false">Location</a>
@@ -39,71 +39,13 @@
        
         </ul>
         <div class="tab-content">
-            <div id="stockGroup" class="tab-pane active">
 
-
-                @*<div class="col-md-12">
-                    <div>
-                        <div class="form-group">
-                            <form>
-                                <div class="row">
-                                    <div class="form-group col-md-3 ">
-                                        <label for="EmployeeId">Name</label>
-                                        <input type="text" class="form-control" id="StockGroupName" placeholder="Name" />
-                                    </div>
-                                    <div class="form-group col-md-3 ">
-                                        <label for="Name">Under</label>
-                                        <select id="Under" class="form-control" aria-describedby="basic-addon2">
-                                            
-                                        </select>
-
-                                       
-
-
-                                        
-                                    </div>
- 
-                                    <div class="form-group col-md-3 ">
-                                        <label for="EmployeeId">Status</label>
-                                        <select id="gStatus" class="form-control" aria-describedby="basic-addon2">
-                                            <option value="1">Yes</option>
-                                            <option value="0">No</option>
-                                        </select>
-                                       
-                                    </div>
-                                    
-                                </div>
-
-                                <div class="modal-footer justify-content-center" >
-
-                                    <span><input type="button" class="btn btn-primary" id="btnStockAdds" onclick="return saveOrUpdate();" value="Save"></input></span>
-                                    <span><input type="button" class="btn btn-primary" id="btnAdds" onclick="return cleardatda();" value="Clear"></input></span>
-
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
- 
-
-                </div>
-                <div>
-                    <table id="datatable" class="table table-striped table-bordered" style="width:100%"></table>
-                </div>*@
-
-             
-            </div>
             <div id="menu1" class="tab-pane fade">
-
-                <br />
-                <h1>aktarul</h1>
+                @*<h3>Menu </h3>*@
                 <div id="menu1">
                 </div>
-
-
             </div>
             <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
                 <div id="menu2">
                 </div>
             </div>
@@ -125,10 +67,6 @@
             </div>
             <div id="menu7" class="tab-pane fade">
                 <div id="menu7">
-                </div>
-            </div>
-            <div id="menu8" class="tab-pane fade">
-                <div id="menu8">
                 </div>
             </div>
             <div id="menu9" class="tab-pane fade">
@@ -155,6 +93,40 @@
 </div>*@
 
 <script>
+    function stockGroupTab() {
+        $.ajax({
+            url: '/StockGroup/SGview',
+            type: 'GET',
+            //data: { StudentIdC: studentIdC },
+            dataType: 'html',
+            contentType: 'application/json',
+            success: function (data) {
+                $('#menu1').html(data);
+                //Spiner.hide();
+            },
+            error: function (ex) {
+                //alert(ex);
+                //Spiner.hide();
+            }
+        });
+    }
+    function BrandTab() {
+
+
+        $.ajax({
+            url: '/Brand/Index',
+            type: 'GET',
+
+            dataType: 'html',
+            contentType: 'application/json',
+            success: function (data) {
+                $('#menu2').html(data);
+            },
+            error: function (ex) {
+            }
+        });
+
+    }
     function ModelTab() {
 
 
@@ -165,9 +137,31 @@
             dataType: 'html',
             contentType: 'application/json',
             success: function (data) {
-                $('#menu9').html(data);
+                $('#menu3').html(data);
             },
             error: function (ex) {
+            }
+        });
+
+    }
+    function packViewTab() {
+
+        //$('.common-button').show();
+        //$('.common-button-print').hide();
+        //$('.common-button-update').hide();
+        $.ajax({
+            url: '/Unit/Index',
+            type: 'GET',
+            //data: { StudentIdC: studentIdC },
+            dataType: 'html',
+            contentType: 'application/json',
+            success: function (data) {
+                $('#menu4').html(data);
+                //Spiner.hide();
+            },
+            error: function (ex) {
+                //alert(ex);
+                //Spiner.hide();
             }
         });
 
@@ -182,110 +176,15 @@
             dataType: 'html',
             contentType: 'application/json',
             success: function (data) {
-                $('#menu8').html(data);
-            },
-            error: function (ex) {
-            }
-        });
-
-    }
-    function TreeViewTab() {
-
-
-        $.ajax({
-            url: '/Tree/Index',
-            type: 'GET',
-
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
-                $('#menu7').html(data);
-            },
-            error: function (ex) {
-            }
-        });
-
-    }
-    function BrandTab() {
-
-
-        $.ajax({
-            url: '/Brand/Index',
-            type: 'GET',
-
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
-                $('#menu6').html(data);
-            },
-            error: function (ex) {
-            }
-        });
-
-    }
-    function packViewTab() {
-        
-        //$('.common-button').show();
-        //$('.common-button-print').hide();
-        //$('.common-button-update').hide();
-        $.ajax({
-            url: '/Unit/Index',
-            type: 'GET',
-            //data: { StudentIdC: studentIdC },
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
-                $('#menu1').html(data);
-                //Spiner.hide();
-            },
-            error: function (ex) {
-                //alert(ex);
-                //Spiner.hide();
-            }
-        });
-
-    }
-
-    function stockGroupTab() {
-        $.ajax({
-            url: '/StockGroup/SGview',
-            type: 'GET',
-            //data: { StudentIdC: studentIdC },
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
                 $('#menu5').html(data);
-                //Spiner.hide();
             },
             error: function (ex) {
-                //alert(ex);
-                //Spiner.hide();
             }
         });
-    }
 
-
-    function LocationViewTab() {
-        
-        $.ajax({
-            url: '/Location/Index',
-            type: 'GET',
-            //data: { StudentIdC: studentIdC },
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
-                $('#menu2').html(data);
-                //Spiner.hide();
-            },
-            error: function (ex) {
-                //alert(ex);
-                //Spiner.hide();
-            }
-        });
     }
-    
     function ItemViewTab() {
- 
+
         $.ajax({
             url: '/Item/Index',
             type: 'GET',
@@ -293,7 +192,7 @@
             dataType: 'html',
             contentType: 'application/json',
             success: function (data) {
-                $('#menu3').html(data);
+                $('#menu6').html(data);
                 //Spiner.hide();
             },
             error: function (ex) {
@@ -302,47 +201,78 @@
             }
         });
     }
-
-    function DepartmentViewTab() {
-
-        $.ajax({
-            url: '/Department/Index',
-            type: 'GET',
-            //data: { StudentIdC: studentIdC },
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
-                $('#menu4').html(data);
-                //Spiner.hide();
-            },
-            error: function (ex) {
-                //alert(ex);
-                //Spiner.hide();
-            }
-        });
-    }
+    //function TreeViewTab() {
 
 
+    //    $.ajax({
+    //        url: '/Tree/Index',
+    //        type: 'GET',
 
-    $(".menu1").click(function () {
+    //        dataType: 'html',
+    //        contentType: 'application/json',
+    //        success: function (data) {
+    //            $('#menu7').html(data);
+    //        },
+    //        error: function (ex) {
+    //        }
+    //    });
+
+    //}
+    //function LocationViewTab() {
+        
+    //    $.ajax({
+    //        url: '/Location/Index',
+    //        type: 'GET',
+    //        //data: { StudentIdC: studentIdC },
+    //        dataType: 'html',
+    //        contentType: 'application/json',
+    //        success: function (data) {
+    //            $('#menu8').html(data);
+    //            //Spiner.hide();
+    //        },
+    //        error: function (ex) {
+    //            //alert(ex);
+    //            //Spiner.hide();
+    //        }
+    //    });
+    //}
+    //function DepartmentViewTab() {
+
+    //    $.ajax({
+    //        url: '/Department/Index',
+    //        type: 'GET',
+    //        //data: { StudentIdC: studentIdC },
+    //        dataType: 'html',
+    //        contentType: 'application/json',
+    //        success: function (data) {
+    //            $('#menu9').html(data);
+    //            //Spiner.hide();
+    //        },
+    //        error: function (ex) {
+    //            //alert(ex);
+    //            //Spiner.hide();
+    //        }
+    //    });
+    //}
+    //$(".menu1").click(function () {
        
   
-        $.ajax({
-            url: '/PackSize/Index',
-            type: 'GET',
+    //    $.ajax({
+    //        url: '/StockGroup/SGview',
+    //        type: 'GET',
           
-            dataType: 'html',
-            contentType: 'application/json',
-            success: function (data) {
-                $('#menu1').html(data);
+    //        dataType: 'html',
+    //        contentType: 'application/json',
+    //        success: function (data) {
+    //            $('#menu1').html(data);
                
-            },
-            error: function (ex) {
+    //        },
+    //        error: function (ex) {
                
-            }
-        });
+    //        }
+    //    });
        
-    });
+    //});
 
 
 
@@ -437,23 +367,6 @@
 
     
 
-    $(".btnHODNotApproved").on("click", function () {
-
-        alert(" ok");
-
-        $.ajax({
-            type: "GET",
-            url: "/StockGroup/mFillStockGroupList",
-            data: JSON.stringify(leaveList),
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            success: function (r) {
-                alert(r + " record(s) inserted.");
-            }
-        });
-
-
-    });
 
     //function cleardatda() {
 
@@ -475,14 +388,15 @@
         //    $("#datatable").dataTable().fnDestroy();
         //    showGrid();
         //}, 5000);  // it reload after 5 second 
+ 
+        //$(".nav-tabs a").click(function () {
+        //    $(this).tab('show');
+        
+        //});
 
-        $(".nav-tabs a").click(function () {
-            $(this).tab('show');
-        });
-
-        $('#button').click(function () {
-            table.row('.selected').remove().draw(false);
-        });
+        //$('#button').click(function () {
+        //    table.row('.selected').remove().draw(false);
+        //});
 
         //getUnderList();
 

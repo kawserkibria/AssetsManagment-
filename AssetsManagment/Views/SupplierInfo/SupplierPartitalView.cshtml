@@ -16,7 +16,7 @@
                 <button title="Add Supplier"
                         style="margin: 2px;"
                         class="btn btn-success"
-                        data-toggle="modal" id="myBtn" data-target=".group-example-modal-lg">
+                        data-toggle="modal" id="myBtn" data-target=".Suppler-example-modal-lg">
                     <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Supplier
                 </button>
             </div>
@@ -25,12 +25,12 @@
 </div>
 <hr />
 
-<div class="modal fade group-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="groupModal">
+<div class="modal fade Suppler-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true" id="SupplerModal">
 
-    <div class="modal-dialog modal-lg group-example-modal-lg ">
+    <div class="modal-dialog modal-lg Suppler-example-modal-lg ">
         <div class="modal-content">
             <div class="modal-header " style="background: #194771">
-                <h5 style=" float:left ;color:white" id="exampleModalLabel"></h5>
+                <h5 style=" float:left ;color:white" id="exampleModalLabelSupplier"></h5>
                 <p>  </p>
                 <button type="button"
                         class="close"
@@ -140,6 +140,7 @@
     var title = "Add Supplier";
 
 
+    document.getElementById("exampleModalLabelSupplier").innerHTML = title;
 
 
     //function showem() {
@@ -177,12 +178,6 @@
 
         ////showGrid();
     }
-
-
-    document.getElementById("exampleModalLabel").innerHTML = title;
-
-
-
 
     $(document).ready(function () {
         getUnderList();

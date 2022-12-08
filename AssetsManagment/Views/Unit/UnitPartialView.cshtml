@@ -14,7 +14,7 @@
                 <button title="Units"
                         style="margin: 2px;"
                         class="btn btn-success"
-                        data-toggle="modal" id="myBtn" data-target=".pack-example-modal-lg">
+                        data-toggle="modal" id="myBtn" data-target=".Unit-example-modal-lg">
                     <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Unit
                 </button>
 
@@ -35,12 +35,12 @@
 
 
 
-    <div class="modal fade pack-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="packModal">
+    <div class="modal fade Unit-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true" id="UnitModal">
 
-        <div class="modal-dialog modal-lg pack-example-modal-lg ">
+        <div class="modal-dialog modal-lg Unit-example-modal-lg ">
             <div class="modal-content">
                 <div class="modal-header " style="background: #194771">
-                    <h5 style=" float:left ;color:white" id="exampleModalLabel"></h5>
+                    <h5 style=" float:left ;color:white" id="exampleModalLabelUnit"></h5>
                     <p>  </p>
                     <button type="button"
                             class="close"
@@ -105,7 +105,7 @@
     var title = "Add Unit";
     var selectdata = "";
 
-    document.getElementById("exampleModalLabel").innerHTML = title;
+    document.getElementById("exampleModalLabelUnit").innerHTML = title;
     $(document).ready(function () {
         showGrid();
 

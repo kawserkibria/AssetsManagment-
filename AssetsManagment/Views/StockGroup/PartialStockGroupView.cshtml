@@ -24,13 +24,13 @@
 </div>  
 <hr />
 
-<div class="modal fade group-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="false" id="groupModal">
+<div class="modal fade group-example-modal-lg " tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true" id="groupModal">
 
     <div class="modal-dialog modal-lg group-example-modal-lg ">
         <div class="modal-content">
             <div class="modal-header " style="background: #194771">
 
-                <h5 style=" float:left ;color:white" id="exampleModalLabel"></h5>
+                <h5 style=" float:left ;color:white" id="exampleModalLabelStockGroup"></h5>
                 <p>  </p>
                 <button type="button"
                         class="close"
@@ -45,11 +45,11 @@
                     <div>
                         <div class="form-group">
                             <form>
-                           
-                                    <div class="form-group col-md-12 ">
-                                        <label for="EmployeeId">Stock Group Name</label>
-                                        <input type="text" class="form-control" id="StockGroupName" placeholder="Name" />
-                                    </div>
+
+                                <div class="form-group col-md-12 ">
+                                    <label for="EmployeeId">Stock Group Name</label>
+                                    <input type="text" class="form-control" id="StockGroupName" placeholder="Name" />
+                                </div>
                                 <div class="form-group col-md-12 ">
                                     <label for="Name">Under</label>
                                     <select id="UnderG" class="form-control" aria-describedby="basic-addon2"></select>
@@ -128,7 +128,7 @@
     }
 
 
-    document.getElementById("exampleModalLabel").innerHTML = title;
+    document.getElementById("exampleModalLabelStockGroup").innerHTML = title;
 
 
 
