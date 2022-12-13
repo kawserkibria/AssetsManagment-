@@ -28,6 +28,7 @@ namespace AssetsManagment.Models
         public string strLocation { get; set; }
         public string strUnder { get; set; }
         public string strBranch { get; set; }
+        public string strBranchID { get; set; }
         public string strAddres1 { get; set; }
         public string strAddres2 { get; set; }
         public string strCity { get; set; }

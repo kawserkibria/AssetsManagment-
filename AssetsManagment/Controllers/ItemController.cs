@@ -12,6 +12,7 @@
 //using System.Web.Mvc;
 using AssetsManagment.Controllers.setting;
 using AssetsManagment.Models;
+using AssetsManagment.Repository;
 using Dutility;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,7 @@ namespace AssetsManagment.Controllers
     {
         //
         // GET: /Item/
-
+        RepositoryAsst objRepositoryAsst = new RepositoryAsst();
         LocationController con = new LocationController();
 
         string strItemSerial = "";
@@ -136,57 +137,15 @@ namespace AssetsManagment.Controllers
 
         }
 
-        public List<Group> groupList()
+
+
+        public ActionResult groupList()
         {
-
-            SqlDataReader drGetGroup;
+            Branch obj = new Branch();
+            obj.strBranchID="0001";
             List<Group> oogrp = new List<Group>();
-            StockGroup sp = new StockGroup();
-            Response response = new Response();
-            string strSQL;
-
-
-            string connectionString = WebConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-            strSQL = "SELECT STOCKGROUP_SERIAL, STOCKGROUP_NAME, STOCKGROUP_PARENT,STOCKGROUP_ONE_DOWN, STOCKGROUP_PRIMARY,STOCKGROUP_NAME_DEFAULT ,G_STATUS ";
-            strSQL = strSQL + "FROM INV_STOCKGROUP ORDER BY STOCKGROUP_NAME ASC ";
-            using (SqlConnection gcnMain = new SqlConnection(connectionString))
-            {
-                if (gcnMain.State == ConnectionState.Open)
-                {
-                    gcnMain.Close();
-                }
-                gcnMain.Open();
-                SqlCommand cmd = new SqlCommand(strSQL, gcnMain);
-                drGetGroup = cmd.ExecuteReader();
-                while (drGetGroup.Read())
-                {
-                    Group ogrp = new Group();
-                    ogrp.SERIAL = Convert.ToInt64(drGetGroup["STOCKGROUP_SERIAL"].ToString());
-                    ogrp.NAME = drGetGroup["STOCKGROUP_NAME"].ToString();
-                    ogrp.PARENT = drGetGroup["STOCKGROUP_PARENT"].ToString();
-                    ogrp.PRIMARY = drGetGroup["STOCKGROUP_PRIMARY"].ToString();
-                    ogrp.G_STATUS = Convert.ToInt16(drGetGroup["G_STATUS"].ToString());
-                    if (drGetGroup["STOCKGROUP_ONE_DOWN"].ToString() != "")
-                    {
-                        ogrp.ONE_DOWN = drGetGroup["STOCKGROUP_ONE_DOWN"].ToString();
-                    }
-                    else
-                    {
-                        ogrp.ONE_DOWN = "";
-                    }
-
-                    oogrp.Add(ogrp);
-
-                }
-                drGetGroup.Close();
-                gcnMain.Dispose();
-                sp.data = oogrp;
-
-
-
-                return oogrp;
-
-            }
+            oogrp = objRepositoryAsst.groupList(obj);
+            return new JsonResult() { Data = oogrp, JsonRequestBehavior = JsonRequestBehavior.AllowGet, MaxJsonLength = Int32.MaxValue };
         }
 
         public JsonResult getStockItemList()

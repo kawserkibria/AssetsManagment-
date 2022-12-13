@@ -11,11 +11,11 @@ namespace AssetsManagment.Models
 
         public void InitialList()
         {
-            data = new List<Brand>();
+            Brandlist = new List<Brand>();
         }
 
 
-        public List<Brand> data { get; set; }
+        public List<Brand> Brandlist { get; set; }
 
 
     }
@@ -25,9 +25,16 @@ namespace AssetsManagment.Models
  
     public class Brand
     {
-        public long intBrandID { get; set; }
-        public int B_STATUS { get; set; }
-        public string BRAND_NAME { get; set; }
+
+ 
+          public int intSERIAL { get; set; }
+          public string strBRAND_ID { get; set; }
+          public string strBRAND_NAME { get; set; }
+          public string strUnder { get; set; }
+          public string strBRAND_STATUS { get; set; }
+          public int intBRAND_STATUS { get; set; } 
+          public string strINSERT_BY { get; set; } 
+      
 
     }
 

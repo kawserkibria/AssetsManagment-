@@ -200,6 +200,7 @@
     <Compile Include="Models\StockItemResponse.cs" />
     <Compile Include="Models\Treenode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\RepositoryAsst.cs" />
     <Compile Include="Voucher.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -911,6 +911,6 @@ H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagm
 H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\bin\System.Web.WebPages.Razor.xml
 H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\bin\Antlr3.Runtime.pdb
 H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache
 H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\obj\Debug\AssetsManagment.dll
 H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\obj\Debug\AssetsManagment.pdb
+H:\Work\ERP\Web ERP 2022\AssetsManagment  06-12-22\AssetsManagment-\AssetsManagment\obj\Debug\AssetsManagment.csprojResolveAssemblyReference.cache

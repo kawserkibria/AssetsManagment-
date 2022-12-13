@@ -68,14 +68,21 @@
                                 </div>
                                 <div class="form-group col-md-12 ">
                                     <label for="Name">Under</label>
-                                    <select id="UnderBrand" class="form-control" aria-describedby="basic-addon2"></select>
+                                    <select id="groupList" class="form-control">
+                                        <option value="">--Select One--</option>
+                                        @foreach (var group in ViewBag.groupList)
+                                        {
+                                            <option value="@group.NAME">@group.NAME</option>
+                                        }
+                                    </select>
+
                                 </div>
 
 
 
                                 <div class="modal-footer justify-content-lg-end  border-0">
 
-                                    <span><input type="button" class="btn btn-primary" id="btnBrandAdds" onclick="saveOrUpdate()" value="Save"></input></span>
+                                    <span><input type="button" class="btn btn-primary" id="btnsaveOrder" onclick="saveOrUpdate()" value="Save"></input></span>
                                     <span><button type="button" class="btn btn-danger" data-dismiss="modal" id="btnBrandCencel" (click)="bsModalRef.hide();  onclick=" cleardatda()">Cancel</button></span>
                                 </div>
 
@@ -112,14 +119,14 @@
     $(document).ready(function () {
       
         //getUnderList();
-        //showGrid();
+        showGrid();
 
     });
 
     function getUnderList() {
 
         $.ajax({
-            url: '/StockGroup/getUnderList',
+            url: '/BrandC/mFillBrandList',
             type: 'GET',
             data: "{}",
             success: function (data) {
@@ -160,46 +167,29 @@
 
     function saveOrUpdate() {
 
-        var btn = $('#btnBrandAdds').val()
+        var btn = $('#btnsaveOrder').val()
 
 
         if (btn == "Save") {
 
-            saveBrandName();
-
-
-            //$.ajax({
-            //    url: '/Brand/Index',
-            //    type: 'GET',
-            //    //data: { StudentIdC: studentIdC },
-            //    dataType: 'html',
-            //    contentType: 'application/json',
-            //    success: function (data) {
-            //        $('#menu6').html(data);
-            //        //Spiner.hide();
-            //    },
-            //    error: function (ex) {
-            //        //alert(ex);
-            //        //Spiner.hide();
-            //    }
-            //});
+            save();
 
         } else {
 
-            UpdateBrand(selectdata.SERIAL);
+            UpdateBrand(selectdata.strBRAND_ID);
         }
     }
 
-    function saveBrandName() {
-        //alert("che")
+    function save() {
+    
         var empObj = {
-            BRAND_NAME: $('#BrandName').val(),
-            B_STATUS: $('#bStatus').val(),
-
+            strBRAND_NAME: $('#BrandName').val(),
+            strUnder: $('#groupList option:selected').text(),
+          
         };
-        //alert(empObj)
+        console.log(empObj)
         $.ajax({
-            url: "/Brand/Create",
+            url: "/Brand/InsertBrand",
             data: JSON.stringify(empObj),
             type: "POST",
             contentType: "application/json;charset=utf-8",
@@ -223,40 +213,27 @@
     }
 
     function UpdateBrand(sl) {
-        //alert(sl)
+        alert(sl)
         var empObj = {
-
-            BRAND_NAME: $('#BrandName').val(),
-            B_STATUS: $('#bStatus').val(),
-            intBrandID: selectdata.intBrandID,
-
-
+            strBRAND_NAME: $('#BrandName').val(),
+            strUnder: $('#groupList option:selected').text(),
+            strBRAND_ID: sl,
         };
 
 
         $.ajax({
-            url: "/Brand/updateData",
+            url: "/Brand/UpdateBrand",
             data: JSON.stringify(empObj),
             type: "POST",
             contentType: "application/json;charset=utf-8",
             dataType: "json",
             success: function (result) {
-                //alert(result)
-                //loadData();
-                //$('#myModal').modal('hide');
                 if (result == "Ok") {
                     $('#brandModal').modal('hide');
                     cleardatda();
                     showGrid();
                     swal("Update!", "Update success.", "success");
-                    //alert("save data")
-                    //$('.nav-tabs a[href="#tabLeaveApplicationList"]').tab('show');
-
-
                 };
-                //error: function (errormessage) {
-                //    alert(errormessage.responseText);
-                //}
 
             }
         });
@@ -264,136 +241,139 @@
     }
 
 
-    function showGrid() {
-        $('#datatablebrand').DataTable({
-            "bDestroy": true,
-            "processing": true,
-            //"orderMulti": false, // for disable multiple column at once
-            //"scrollX": true,
 
-            "deferRender": true,
+
+
+    function showGrid() {
+
+
+        table = $('#datatablebrand').DataTable({
+            "bDestroy": true,
+            "select": true,
+            //"gridlines": true,
             "ajax": {
-                "url": "/Brand/showGrid",
+                "url": "/Brand/mFillBrandList",
                 "type": "POST",
                 "datatype": "json",
                 "dataSrc": function (response) {
-                    // Settings.
-                    response.draw = response.data.draw;
+                    detailsList = response;
+                    response.draw = response.draw;
                     response.recordsTotal = response.recordsTotal;
                     response.recordsFiltered = response.recordsFiltered;
-                    console.log('request.responseText', response.data);
-                    return response.data;
+                    return response;
                 }
+
             },
 
-
-            "order": [[0, 'asc']],
+            //"order": [[1, 'asc']],
+            "paging": true,
+            "searchable": true,
             "columns": [
-                {
-                    title: 'SL',
-                    render: function (
-                        data,
-                        type,
-                        row,
-                       meta
-                    ) {
-                        return '<span>' + (meta.row + 1) + '</span>';
-                    },
-                },
-                {
-
-                    title: 'SERIAL',
-                    data: 'intBrandID',
-                    name: 'intBrandID',
-                },
-
+                  {
+                      title: 'SL',
+                      render: function (
+                          data,
+                          type,
+                          row,
+                          meta
+                      ) {
+                          return '<span>' + (meta.row + 1) + '</span>';
+                      },
+                  },
+                  {
+                      title: 'SERIAL',
+                      data: 'strBRAND_ID',
+                      name: 'strBRAND_ID',
+                      visible: false,
+                  },
+                  {
+                      title: 'BRAND NAME',
+                      data: 'strBRAND_NAME',
+                      name: 'BRAND_NAME',
+                  },
                     {
-
-                        title: 'BRAND NAME',
-                        data: 'BRAND_NAME',
+                        title: 'Under',
+                        data: 'strUnder',
                         name: 'BRAND_NAME',
                     },
+                    {
+                        title: 'Status',
+                        data: 'intBRAND_STATUS',
 
+                        render: function (data) {
+                            return data == 1 ? "Active" : "Inactive"
+                        }
+                    },
+                             {
+                                 title: 'Edit',
 
+                                 render: function (data, type, row) {
+                                     return '<button class="btn btn-info fontsize  sales-sloat-ak" data-toggle="modal" data-target="#AccountsVoucher"><i class="fa fa-pencil"></i></button>';
+                                 }
+                             },
+                              {
+                                  title: 'Delete',
+                                  render: function (data, type, row) {
 
-                  {
-                      title: 'Status',
-                      data: 'B_STATUS',
-
-                      render: function (data) {
-                          return data == 1 ? "Active" : "Inactive"
-                      }
-                  },
-
-
-
-                   {
-                       render: function (data, type, row) {
-                           return '<button class="btn btn-info fontsize  sales-sloat-ak">   <i class="fa fa-pencil"></i></button>' + "&nbsp" + '<button class="btn btn-danger fontsize  delete-sloat-ak"> <i class="fa fa-trash"></i></button>';
-                       }
-                   },
-
-                     //{
-                     //    render: function (data, type, row) {
-                     //        return '<button class="btnPrintAllResult gotoResultEntry btn btn-success"><i class="fa fa-trash"></i> </button>';
-                     //    }
-                     //},
-
+                                      return '<button class="btn btn-danger fontsize delete-sloat-ak">   <i class="fa fa-trash"></i></button>';
+                                  }
+                              },
 
 
             ],
 
-
-            "responsive": false,
-            "select": true,
+            "responsive": true,
             "rowCallback": function (row, data) {
 
 
-                $(row)
-                 .bind('click')
-                 .click(function () {
 
-                     selectdata = data;
-                     console.log('hello select data', selectdata);
-                     //rerender();
-                 });
+                var rowdata = data;
+
+
                 $(row).find(".sales-sloat-ak").click(function () {
                     selectdata = data;
-                    //alert(data);
+
+                    //saveorupdatebtntype =1;
                     edit(selectdata);
-                    //that.salesss(data);
-                    //that.rerender();
+
                 });
                 $(row).find(".delete-sloat-ak").click(function () {
                     selectdata = data;
-                    deletef(selectdata.intBrandID)
-                    //that.salesss(data);
-                    //that.rerender();
+
+                    deleteBrand(selectdata);
+
+                });
+                $(row).find(".print-sloat-ak").click(function () {
+                    selectdata = data;
+                    orderprint(selectdata.strVoucherNoMerz, selectdata.strLedgerName)
+
                 });
 
             }
 
         });
+
     }
     function edit(selectdata) {
         //alert(selectdata.NAME)
         console.log('seleceted data', selectdata);
         $('#brandModal').modal('show');
-        $('#BrandName').val(selectdata.BRAND_NAME);
-        $('#bStatus').val(selectdata.B_STATUS);
-        $('#intBrandID').val(selectdata.G_STATUS);
-        $('#btnBrandAdds').val("Update");
+        $('#BrandName').val(selectdata.strBRAND_NAME);
+        $('#groupList').val(selectdata.strUnder).trigger('change');
+        $('#btnsaveOrder').val("Update");
 
     }
 
 
 
-    function deletef(id) {
-         
+    function deleteBrand(selectdata) {
+        var empObj = {
+            strBRAND_ID: selectdata.strBRAND_ID,
+        };
 
         $.ajax({
-            url: "/Brand/DeleteB?id=" + id,
-            //data: JSON.stringify(empObj),
+            url: "/Brand/DeleteBrand",
+            data: JSON.stringify(empObj),
             type: "POST",
             contentType: "application/json;charset=utf-8",
             dataType: "json",
